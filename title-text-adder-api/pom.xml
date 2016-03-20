@@ -7,6 +7,13 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<name>title-text-adder-api Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	
+	<properties>
+		<spring.version>3.2.2.RELEASE</spring.version>
+		<jackson.version>1.9.10</jackson.version>
+		<jdk.version>1.6</jdk.version>
+	</properties>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -49,5 +56,31 @@
 			<version>5.5.0</version>
 		</dependency>
 
+		<!-- Spring 3 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Jackson JSON Mapper -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		
 	</dependencies>
 </project>
