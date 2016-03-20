@@ -41,5 +41,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.38</version>
 		</dependency>
+
+		<!-- Solr Server -->
+		<dependency>
+			<groupId>org.apache.solr</groupId>
+			<artifactId>solr-solrj</artifactId>
+			<version>5.5.0</version>
+		</dependency>
+
 	</dependencies>
 </project>
