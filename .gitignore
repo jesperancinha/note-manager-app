@@ -1,0 +1,8 @@
+# Idea files
+.idea
+
+# Maven target files
+target
+
+# Solr data files
+mysql-tta-indexing/data
