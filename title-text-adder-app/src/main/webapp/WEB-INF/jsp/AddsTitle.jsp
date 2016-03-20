@@ -28,7 +28,8 @@
 </script>
 </head>
 <body>
-	<h1>Title text adder:</h1>
+	<h1>Title text adder</h1>
+	<h2>Edit text</h2>
 	<table>
 		<tr>
 			<td>Enter title :</td>
@@ -39,13 +40,20 @@
 			<td><input type="text" id="title_text"><br /></td>
 		</tr>
 		<tr>
-			<td colspan="2"><input type="button" value="Add Title"
+			<td colspan="2"><input type="button" value="Save Title"
 				onclick="doAjaxPost()"><br /></td>
 		</tr>
 		<tr>
-			<td colspan="2"><div id="info" style="color: green;"></div></td>
+			<td colspan="2"><div id="info" style="color: blue;"></div></td>
 		</tr>
 	</table>
-	<a href="/title-text-adder-app/ShowTitles.htm">Show All Titles</a>
+	<form method="post" action="/title-text-adder-app/ShowTitles.htm">
+	<table>
+		<tr>
+			<td><input type="text" name="text_filter"><br /></td>
+			<td><input type="submit" value="Show filtered Titles">
+		</tr>
+	</table>
+	</form>
 </body>
 </html>

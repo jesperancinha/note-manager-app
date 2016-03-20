@@ -3,7 +3,6 @@ package com.steelzack.titletextadder.app.controller;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -19,8 +18,6 @@ import com.steelzack.titletextadder.app.model.Title;
 
 @Controller
 public class JSONControllerForm {
-	private List<Title> userList = new ArrayList<Title>();
-
 	@RequestMapping(value = "/AddsTitle.htm", method = RequestMethod.GET)
 	public String showForm() {
 		return "AddsTitle";
@@ -31,8 +28,6 @@ public class JSONControllerForm {
 			throws URISyntaxException {
 		String returnText;
 		if (!result.hasErrors()) {
-			userList.add(title);
-
 			RestTemplate restTemplate = new RestTemplate();
 			URI url = new URI("http://localhost:8080/title-text-adder-api/rest/tta/titles/add");
 			ResponseEntity<String> response = restTemplate.postForEntity(url, title, String.class);
@@ -51,8 +46,16 @@ public class JSONControllerForm {
 	}
 
 	@RequestMapping(value = "/ShowTitles.htm")
-	public String showTitles(ModelMap model) {
-		model.addAttribute("Titles", userList);
+	public String showTitles(ModelMap model, @ModelAttribute(value = "text_filter") String textFilter)
+			throws URISyntaxException {
+		final RestTemplate restTemplate = new RestTemplate();
+		if (textFilter == null || textFilter.isEmpty()) {
+			textFilter = "*";
+		}
+		final URI url = new URI("http://localhost:8080/title-text-adder-api/rest/tta/titles/list/" + textFilter);
+		@SuppressWarnings("rawtypes")
+		final ResponseEntity<ArrayList> response = restTemplate.getForEntity(url, ArrayList.class);
+		model.addAttribute("Titles", response.getBody());
 		return "ShowTitles";
 	}
 

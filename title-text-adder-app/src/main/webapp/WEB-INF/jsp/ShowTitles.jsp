@@ -7,15 +7,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Titles Added using Ajax</title>
 </head>
-<body style="color: green;">
-	The following are the titles added in the database:
+<body>
+	<h1>Title text adder</h1>
+	<h2>My texts</h2>
+
+	The following are the filtered  by "${text_filter}" titles added in the database:
 	<br>
-	<ul>
+	<ul style="color: blue;">
 		<c:forEach items="${Titles}" var="title">
 			<li>Title : <c:out value="${title.title}" />; text : <c:out
 					value="${title.text}" />
 		</c:forEach>
 	</ul>
-	<a href="/title-text-adder-app/AddsTitle.htm">Add more titles</a>
+	<a href="/title-text-adder-app/AddsTitle.htm">Add title</a>
 </body>
 </html>

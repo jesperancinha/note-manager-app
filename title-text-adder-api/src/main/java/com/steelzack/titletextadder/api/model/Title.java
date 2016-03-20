@@ -30,6 +30,15 @@ public class Title {
 	@Column(name = "title_text_score")
 	private Integer score;
 
+	public Title() {
+		// Here for CDI
+	}
+
+	public Title(final String title, final String title_text) {
+		this.title = title;
+		this.text = title_text;
+	}
+
 	public Integer getId() {
 		return id;
 	}

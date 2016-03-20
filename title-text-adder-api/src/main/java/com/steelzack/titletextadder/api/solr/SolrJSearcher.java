@@ -19,6 +19,7 @@ public class SolrJSearcher {
 		final SolrQuery query = new SolrQuery();
 		query.setQuery("title_text:*" + filter + "*");
 		query.setStart(0);
+		query.setRows(1000);
 		query.set("defType", "edismax");
 
 		final QueryResponse response = solr.query(query);
