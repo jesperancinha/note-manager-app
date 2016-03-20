@@ -18,7 +18,7 @@
 			success : function(response) {
 				$('#info').html(response);
 				$('#title').val('');
-				$('#text').val('');
+				$('#title_text').val('');
 			},
 			error : function(e) {
 				alert('Error: ' + e);
