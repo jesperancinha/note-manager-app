@@ -7,6 +7,12 @@
 * mvn tomcat7:undeploy
 * mvn tomcat7:redeploy
 
+## Usefull test commands
+
+* Should not work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/title-text-adder-api/rest/tta/titles/add -d '{ "title":"title"}'
+* Should work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/title-text-adder-api/rest/tta/titles/add -d '{ "title":"title", "text":"text"}'
+
+
 ## References:
 
 * http://www.solrtutorial.com/solr-in-5-minutes.html

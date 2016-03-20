@@ -10,3 +10,5 @@ create table titles(
    title_text_score TINYINT,
    PRIMARY KEY ( title_id )
 );
+
+GRANT ALL ON tta_db.* TO 'tta'@'localhost';
