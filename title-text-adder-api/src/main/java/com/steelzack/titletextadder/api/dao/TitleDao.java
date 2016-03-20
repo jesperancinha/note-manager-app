@@ -1,4 +1,4 @@
-package com.steelzack.titletextadder.dao;
+package com.steelzack.titletextadder.api.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -6,7 +6,7 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-import com.steelzack.titletextadder.model.Title;
+import com.steelzack.titletextadder.api.model.Title;
 
 public class TitleDao implements TitleDaoInterface<Title, String> {
 

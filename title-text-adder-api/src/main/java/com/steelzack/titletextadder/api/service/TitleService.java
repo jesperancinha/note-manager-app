@@ -1,7 +1,7 @@
-package com.steelzack.titletextadder.service;
+package com.steelzack.titletextadder.api.service;
 
-import com.steelzack.titletextadder.dao.TitleDao;
-import com.steelzack.titletextadder.model.Title;
+import com.steelzack.titletextadder.api.dao.TitleDao;
+import com.steelzack.titletextadder.api.model.Title;
 
 public class TitleService {
 	private static TitleDao titleDao;

@@ -1,4 +1,4 @@
-package com.steelzack.titletextadder.dao;
+package com.steelzack.titletextadder.api.dao;
 
 import java.io.Serializable;
 

@@ -8,7 +8,7 @@
 	<name>title-text-adder-api Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<build>
-	<plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
@@ -23,11 +23,14 @@
 		<finalName>title-text-adder-api</finalName>
 	</build>
 	<dependencies>
+		<!-- JUnit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
+
+		<!-- Hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
