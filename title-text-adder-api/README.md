@@ -1,4 +1,4 @@
-# Title text adder Web APP
+# Title text adder REST API
 
 
 ## Usefull deploy commads
