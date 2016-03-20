@@ -75,6 +75,13 @@
 			<version>${jackson.version}</version>
 		</dependency>
 
+		<!-- JSTL Core -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 		<!-- JUnit -->
 		<dependency>
 			<groupId>junit</groupId>

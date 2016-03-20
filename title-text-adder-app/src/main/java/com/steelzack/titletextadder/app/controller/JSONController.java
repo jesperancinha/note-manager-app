@@ -11,7 +11,6 @@ import com.steelzack.titletextadder.app.model.Title;
 @Controller
 @RequestMapping("/tta/titles")
 public class JSONController {
-
 	@RequestMapping(value = "{title}", method = RequestMethod.GET)
 	public @ResponseBody Title getTitleInJSON(@PathVariable String title) {
 
@@ -23,5 +22,4 @@ public class JSONController {
 
 		return objectTitle;
 	}
-
 }
