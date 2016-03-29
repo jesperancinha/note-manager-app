@@ -2,7 +2,7 @@ package com.steelzack.titletextadder.app.controller;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -54,7 +54,7 @@ public class JSONControllerForm {
 		}
 		final URI url = new URI("http://localhost:8080/title-text-adder-api/rest/tta/titles/list/" + textFilter);
 		@SuppressWarnings("rawtypes")
-		final ResponseEntity<ArrayList> response = restTemplate.getForEntity(url, ArrayList.class);
+		final ResponseEntity<List> response = restTemplate.getForEntity(url, List.class);
 		model.addAttribute("Titles", response.getBody());
 		return "ShowTitles";
 	}
