@@ -1,8 +1,6 @@
 package com.steelzack.titletextadder.api.dao;
 
-import java.io.Serializable;
-
-public interface TitleDaoInterface<T, Id extends Serializable> {
+public interface TitleDaoInterface<T> {
 
 	public void persist(T entity);
 

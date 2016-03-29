@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 
 import com.steelzack.titletextadder.api.model.Title;
 
-public class TitleDao implements TitleDaoInterface<Title, String> {
+public class TitleDao implements TitleDaoInterface<Title> {
 
 	private Session currentSession;
 
@@ -37,7 +37,7 @@ public class TitleDao implements TitleDaoInterface<Title, String> {
 		currentSession.close();
 	}
 
-	private static SessionFactory getSessionFactory() {
+	protected SessionFactory getSessionFactory() {
 		Configuration configuration = new Configuration().configure();
 		configuration.addClass(Title.class);
 		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder()
