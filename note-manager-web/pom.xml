@@ -15,6 +15,7 @@
 		<jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
 		<junit>4.12</junit>
 		<weld.servlet>2.3.3.Final</weld.servlet>
+		<jackson.databind>2.7.3</jackson.databind>
 	</properties>
 
 	<build>
@@ -95,6 +96,13 @@
 			<groupId>org.jboss.weld.servlet</groupId>
 			<artifactId>weld-servlet</artifactId>
 			<version>${weld.servlet}</version>
+		</dependency>
+
+		<!-- Jackson databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.databind}</version>
 		</dependency>
 	</dependencies>
 </project>

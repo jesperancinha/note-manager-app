@@ -19,6 +19,7 @@
         <mysql.connector.java>5.1.38</mysql.connector.java>
         <solr.solrj>5.5.0</solr.solrj>
         <weld.servlet>2.3.3.Final</weld.servlet>
+		<jackson.databind>2.7.3</jackson.databind>
     </properties>
 
 	<build>
@@ -46,7 +47,7 @@
 		<!-- Hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
+			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate.core}</version>
 		</dependency>
 		<dependency>
@@ -62,7 +63,7 @@
 			<version>${solr.solrj}</version>
 		</dependency>
 
-		<!-- Spring 3 -->
+		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -101,5 +102,12 @@
             <artifactId>weld-servlet</artifactId>
             <version>${weld.servlet}</version>
         </dependency>
+
+		<!-- Jackson databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.databind}</version>
+		</dependency>
 	</dependencies>
 </project>

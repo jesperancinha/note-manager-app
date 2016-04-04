@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Adds titles</title>
-<script src="/note-manager-app/js/jquery-1.12.2.min.js"></script>
+<script src="/note-manager-web/js/jquery-1.12.2.min.js"></script>
 <script type="text/javascript">
 	function doAjaxPost() {
 		var title = $('#title').val();
@@ -13,7 +13,7 @@
 
 		$.ajax({
 			type : "POST",
-			url : "/note-manager-app/AddsTitle.htm",
+			url : "/note-manager-web/AddsTitle.htm",
 			data : "title=" + title + "&text=" + title_text,
 			success : function(response) {
 				$('#info').html(response);
@@ -47,7 +47,7 @@
 			<td colspan="2"><div id="info" style="color: blue;"></div></td>
 		</tr>
 	</table>
-	<form method="post" action="/note-manager-app/ShowTitles.htm">
+	<form method="post" action="/note-manager-web/ShowTitles.htm">
 	<table>
 		<tr>
 			<td><input type="text" name="text_filter"><br /></td>

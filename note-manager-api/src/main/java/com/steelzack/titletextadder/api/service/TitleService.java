@@ -11,19 +11,16 @@ public class TitleService {
 	}
 
 	public void persist(Title entity) {
-		titleDao.openCurrentSessionwithTransaction();
 		titleDao.persist(entity);
 		titleDao.closeCurrentSessionwithTransaction();
 	}
 
 	public void update(Title entity) {
-		titleDao.openCurrentSessionwithTransaction();
 		titleDao.update(entity);
 		titleDao.closeCurrentSessionwithTransaction();
 	}
 
 	public void delete(Title title) {
-		titleDao.openCurrentSessionwithTransaction();
 		titleDao.delete(title);
 		titleDao.closeCurrentSessionwithTransaction();
 	}

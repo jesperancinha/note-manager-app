@@ -10,6 +10,9 @@
 
 ```
 $ brew install mysql
+$ mysqld
+$ mysql -u root
+
 ```
 
 or
@@ -17,6 +20,12 @@ or
 
 ```
 $ sudo apt-get install mysql
+```
+
+> Commands
+
+```
+mysql> SHOW DATABASES
 ```
 
 Solr is required to be running. You will need to configure your collection and how you want it to be attached to your databas

@@ -1,77 +1,50 @@
 package com.steelzack.titletextadder.api.dao;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-
 import com.steelzack.titletextadder.api.model.Title;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
 public class TitleDao implements TitleDaoInterface<Title> {
+    private EntityTransaction currentTransaction;
 
-	private Session currentSession;
+    private EntityManagerFactory entityManagerFactory;
+    private EntityManager entityManager;
 
-	private Transaction currentTransaction;
+    public TitleDao() {
+        entityManagerFactory = Persistence.createEntityManagerFactory("note.manager.app.jpa");
+    }
 
-	public TitleDao() {
-	}
+    public void closeCurrentSessionwithTransaction() {
+        currentTransaction.commit();
+    }
 
-	public Session openCurrentSession() {
-		currentSession = getSessionFactory().openSession();
-		return currentSession;
-	}
 
-	public Session openCurrentSessionwithTransaction() {
-		currentSession = getSessionFactory().openSession();
-		currentTransaction = currentSession.beginTransaction();
-		return currentSession;
-	}
+    private EntityTransaction getCurrentTransaction() {
+        return currentTransaction;
+    }
 
-	public void closeCurrentSession() {
-		currentSession.close();
-	}
+    public void persist(Title entity) {
+        entityManager = entityManagerFactory.createEntityManager();
+        currentTransaction = entityManager.getTransaction();
+        currentTransaction.begin();
+        entityManager.persist(entity);
+    }
 
-	public void closeCurrentSessionwithTransaction() {
-		currentTransaction.commit();
-		currentSession.close();
-	}
+    public void update(Title entity) {
+        entityManager = entityManagerFactory.createEntityManager();
+        currentTransaction = entityManager.getTransaction();
+        currentTransaction.begin();
+        entityManager.refresh(entity);
+    }
 
-	protected SessionFactory getSessionFactory() {
-		Configuration configuration = new Configuration().configure();
-		configuration.addClass(Title.class);
-		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder()
-				.applySettings(configuration.getProperties());
-		SessionFactory sessionFactory = configuration.buildSessionFactory(builder.build());
-		return sessionFactory;
-	}
-
-	public Session getCurrentSession() {
-		return currentSession;
-	}
-
-	public void setCurrentSession(Session currentSession) {
-		this.currentSession = currentSession;
-	}
-
-	public Transaction getCurrentTransaction() {
-		return currentTransaction;
-	}
-
-	public void setCurrentTransaction(Transaction currentTransaction) {
-		this.currentTransaction = currentTransaction;
-	}
-
-	public void persist(Title entity) {
-		getCurrentSession().save(entity);
-	}
-
-	public void update(Title entity) {
-		getCurrentSession().update(entity);
-	}
-
-	public void delete(Title entity) {
-		getCurrentSession().delete(entity);
-	}
+    public void delete(Title entity) {
+        entityManager = entityManagerFactory.createEntityManager();
+        currentTransaction = entityManager.getTransaction();
+        currentTransaction.begin();
+        entityManager.remove(entity);
+    }
 
 }
