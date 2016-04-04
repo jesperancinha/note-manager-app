@@ -1,8 +1,12 @@
 # Idea files
 .idea
+*.iml
 
 # Maven target files
 target
 
 # Solr data files
 mysql-tta-indexing/data
+
+# MAC-OSX
+**/.DS_Store
