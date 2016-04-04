@@ -29,7 +29,7 @@ public class JSONControllerForm {
 		String returnText;
 		if (!result.hasErrors()) {
 			RestTemplate restTemplate = new RestTemplate();
-			URI url = new URI("http://localhost:8080/title-text-adder-api/rest/tta/titles/add");
+			URI url = new URI("http://localhost:8080/note-manager-api/rest/tta/titles/add");
 			ResponseEntity<String> response = restTemplate.postForEntity(url, title, String.class);
 			returnText = //
 					"You have added title: \"". //
@@ -52,7 +52,7 @@ public class JSONControllerForm {
 		if (textFilter == null || textFilter.isEmpty()) {
 			textFilter = "*";
 		}
-		final URI url = new URI("http://localhost:8080/title-text-adder-api/rest/tta/titles/list/" + textFilter);
+		final URI url = new URI("http://localhost:8080/note-manager-api/rest/tta/titles/list/" + textFilter);
 		@SuppressWarnings("rawtypes")
 		final ResponseEntity<List> response = restTemplate.getForEntity(url, List.class);
 		model.addAttribute("Titles", response.getBody());

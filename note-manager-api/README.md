@@ -6,9 +6,9 @@
 * mvn tomcat7:redeploy
 
 ## Usefull test commands
-* Should not work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/title-text-adder-api/rest/tta/titles/add -d '{ "title":"title"}'
-* Should work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/title-text-adder-api/rest/tta/titles/add -d '{ "title":"title", "text":"text"}'
-* Test in the browser: http://localhost:8080/title-text-adder-api/rest/tta/titles/list/xt
+* Should not work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titles/add -d '{ "title":"title"}'
+* Should work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titles/add -d '{ "title":"title", "text":"text"}'
+* Test in the browser: http://localhost:8080/note-manager-api/rest/tta/titles/list/xt
 
 ## Usefull Solr commands:
 * ./solr create -c mysql-tta-indexing -d basic_configs
