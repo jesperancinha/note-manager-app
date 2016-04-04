@@ -40,7 +40,7 @@
 						</contextHandler>
 						<contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
 							<contextPath>/note-manager-app</contextPath>
-							<war>${basedir}/../note-manager-app/target/note-manager.war</war>
+							<war>${basedir}/../note-manager-web/target/note-manager.war</war>
 						</contextHandler>
 					</contextHandlers>
 					<connectors>
