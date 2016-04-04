@@ -10,8 +10,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>title-text-adder-api</module>
-		<module>title-text-adder-app</module>
+		<module>note-manager-api</module>
+		<module>note-manager-web</module>
 	</modules>
 	
 </project>
