@@ -18,7 +18,8 @@
         <hibernate.core>5.1.0.Final</hibernate.core>
         <mysql.connector.java>5.1.38</mysql.connector.java>
         <solr.solrj>5.5.0</solr.solrj>
-	</properties>
+        <weld.servlet>2.3.3.Final</weld.servlet>
+    </properties>
 
 	<build>
 		<plugins>
@@ -93,5 +94,12 @@
 			<artifactId>jmock-junit4</artifactId>
 			<version>${jmock.junit}</version>
 		</dependency>
+
+        <!-- Weld for CDI -->
+        <dependency>
+            <groupId>org.jboss.weld.servlet</groupId>
+            <artifactId>weld-servlet</artifactId>
+            <version>${weld.servlet}</version>
+        </dependency>
 	</dependencies>
 </project>

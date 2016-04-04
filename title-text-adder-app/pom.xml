@@ -14,6 +14,7 @@
 		<jdk.version>1.8</jdk.version>
 		<jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
 		<junit>4.12</junit>
+		<weld.servlet>2.3.3.Final</weld.servlet>
 	</properties>
 
 	<build>
@@ -87,6 +88,13 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit}</version>
+		</dependency>
+
+		<!-- Weld for CDI -->
+		<dependency>
+			<groupId>org.jboss.weld.servlet</groupId>
+			<artifactId>weld-servlet</artifactId>
+			<version>${weld.servlet}</version>
 		</dependency>
 	</dependencies>
 </project>
