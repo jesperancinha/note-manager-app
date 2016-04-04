@@ -1,10 +1,16 @@
 # Title text adder Web APP
 
 
+
 ## Usefull deploy commads
 
 * mvn jetty:run
 
+## Build commands used
+
+* npm install -g bower
+
+* mvn archetype:generate -DgroupId=<> -DartifactId=<> -DarchetypeArtifactId=<> -DinteractiveMode=false
 
 ## References:
 
