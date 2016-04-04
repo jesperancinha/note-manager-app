@@ -9,27 +9,23 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>3.2.2.RELEASE</spring.version>
+		<spring.version>4.2.5.RELEASE</spring.version>
 		<jackson.version>1.9.10</jackson.version>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
+		<jmock.junit>2.8.2</jmock.junit>
+        <maven.compiler.plugin>2.3.2</maven.compiler.plugin>
+        <junit>4.12</junit>
+        <hibernate.core>5.1.0.Final</hibernate.core>
+        <mysql.connector.java>5.1.38</mysql.connector.java>
+        <solr.solrj>5.5.0</solr.solrj>
 	</properties>
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>2.9</version>
-				<configuration>
-					<downloadSources>true</downloadSources>
-					<downloadJavadocs>false</downloadJavadocs>
-					<wtpversion>2.0</wtpversion>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>${maven.compiler.plugin}</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
@@ -43,26 +39,26 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>${junit}</version>
 		</dependency>
 
 		<!-- Hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.1.0.Final</version>
+			<version>${hibernate.core}</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.38</version>
+			<version>${mysql.connector.java}</version>
 		</dependency>
 
 		<!-- Solr Server -->
 		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-solrj</artifactId>
-			<version>5.5.0</version>
+			<version>${solr.solrj}</version>
 		</dependency>
 
 		<!-- Spring 3 -->
@@ -95,8 +91,7 @@
 		<dependency>
 			<groupId>org.jmock</groupId>
 			<artifactId>jmock-junit4</artifactId>
-			<version>2.8.2</version>
+			<version>${jmock.junit}</version>
 		</dependency>
-
 	</dependencies>
 </project>
