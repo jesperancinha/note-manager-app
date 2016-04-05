@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Adds titles</title>
-<script src="/note-manager-web/js/jquery-1.12.2.min.js"></script>
+<script src="/note-manager-web/resources/bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript">
 	function doAjaxPost() {
 		var title = $('#title').val();
