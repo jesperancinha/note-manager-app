@@ -3,29 +3,15 @@ package com.steelzack.titletextadder.api.service;
 import com.steelzack.titletextadder.api.dao.TitleDao;
 import com.steelzack.titletextadder.api.model.Title;
 
-public class TitleService {
-	private static TitleDao titleDao;
+/**
+ * Created by joaofilipesabinoesperancinha on 05-04-16.
+ */
+public interface TitleService {
+    void persist(Title entity);
 
-	public TitleService() {
-		titleDao = new TitleDao();
-	}
+    void update(Title entity);
 
-	public void persist(Title entity) {
-		titleDao.persist(entity);
-		titleDao.closeCurrentSessionwithTransaction();
-	}
+    void delete(Title title);
 
-	public void update(Title entity) {
-		titleDao.update(entity);
-		titleDao.closeCurrentSessionwithTransaction();
-	}
-
-	public void delete(Title title) {
-		titleDao.delete(title);
-		titleDao.closeCurrentSessionwithTransaction();
-	}
-
-	public TitleDao titleDao() {
-		return titleDao;
-	}
+    TitleDao titleDao();
 }

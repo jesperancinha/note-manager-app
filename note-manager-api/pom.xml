@@ -20,7 +20,9 @@
         <solr.solrj>5.5.0</solr.solrj>
         <weld.servlet>2.3.3.Final</weld.servlet>
 		<jackson.databind>2.7.3</jackson.databind>
-    </properties>
+		<tomcat.plugin.version>2.2</tomcat.plugin.version>
+		<hibernate.c3p0>5.1.0.Final</hibernate.c3p0>
+	</properties>
 
 	<build>
 		<plugins>
@@ -31,6 +33,15 @@
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>${tomcat.plugin.version}</version>
+				<configuration>
+					<port>8080</port>
+					<path>/stones-game</path>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -108,6 +119,13 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.databind}</version>
+		</dependency>
+
+		<!-- C3P0 -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-c3p0</artifactId>
+			<version>5.1.0.Final</version>
 		</dependency>
 	</dependencies>
 </project>

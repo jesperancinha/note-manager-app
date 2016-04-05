@@ -1,33 +1,32 @@
 package com.steelzack.titletextadder.api.controller;
 
-import static com.steelzack.titletextadder.api.pojo.ResponseStatus.OK;
+import com.steelzack.titletextadder.api.model.Title;
+import com.steelzack.titletextadder.api.pojo.Response;
+import com.steelzack.titletextadder.api.service.TitleService;
+import com.steelzack.titletextadder.api.solr.SolrJSearcher;
+import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.common.SolrDocumentList;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.common.SolrDocumentList;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-
-import com.steelzack.titletextadder.api.model.Title;
-import com.steelzack.titletextadder.api.pojo.Response;
-import com.steelzack.titletextadder.api.service.TitleService;
-import com.steelzack.titletextadder.api.solr.SolrJSearcher;
+import static com.steelzack.titletextadder.api.pojo.ResponseStatus.OK;
 
 @Controller
 @RequestMapping("/tta/titles")
 public class JSONController {
 
+	@Autowired
+	private TitleService titleService;
+
+
 	@RequestMapping(headers = { "content-type=application/json" }, method = RequestMethod.POST, value = "/add")
 	@ResponseBody
 	public Response addTitle(@RequestBody Title title) {
-		final TitleService titleService = new TitleService();
 		titleService.persist(title);
 		return new Response(OK);
 	}
