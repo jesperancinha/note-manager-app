@@ -61,6 +61,6 @@ This application is using JETTY in the Maven POM files. (NOTE: It was already be
 
 
 ```
-NOTE: The extra folder for mysql-tta-indexing is part of Solr configuration.
+NOTE: The extra folder for notemanagercol is part of Solr configuration.
 This is used for elastic search purposes
 ```

@@ -6,7 +6,7 @@
 target
 
 # Solr data files
-mysql-tta-indexing/data
+notemanagercol/data
 
 # MAC-OSX
 **/.DS_Store
