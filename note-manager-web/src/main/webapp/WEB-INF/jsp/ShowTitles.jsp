@@ -19,6 +19,6 @@
 					value="${title.text}" />
 		</c:forEach>
 	</ul>
-	<a href="/note-manager-app/AddsTitle.htm">Add title</a>
+	<a href="/note-manager-web/AddsTitle.htm">Add title</a>
 </body>
 </html>

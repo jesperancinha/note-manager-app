@@ -1,20 +1,28 @@
 package com.steelzack.titletextadder.api.solr;
 
-import java.io.IOException;
-
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocumentList;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
-public class SolrJSearcher {
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+@Service("solrJSearcherImpl")
+@Component
+public class SolrJSearcherImpl implements SolrSearcher {
 	private HttpSolrClient solr;
 
-	public SolrJSearcher() {
+	public SolrJSearcherImpl() {
 		solr = new HttpSolrClient("http://localhost:8983/solr/notemanagercol");
 	}
 
+	@Override
 	public SolrDocumentList getAllFilteredResults(final String filter) throws SolrServerException, IOException {
 		final SolrQuery query = new SolrQuery();
 		query.setQuery("title_text:*" + filter + "*");
@@ -24,5 +32,13 @@ public class SolrJSearcher {
 
 		final QueryResponse response = solr.query(query);
 		return response.getResults();
+	}
+
+	@Override
+	public void refreshCollection() throws URISyntaxException {		
+		final RestTemplate restTemplate = new RestTemplate();
+
+		final URI url = new URI("http://localhost:8983/solr/notemanagercol/dataimport?command=full-import");
+		restTemplate.getForObject(url, String.class);
 	}
 }
