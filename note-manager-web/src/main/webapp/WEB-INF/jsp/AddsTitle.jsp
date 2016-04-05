@@ -9,26 +9,6 @@
 <script src="/note-manager-web/resources/bower_components/angular/angular.min.js"></script>
 <script src="/note-manager-web/resources/bower_components/angular-route/angular-route.min.js"></script>
 <script src="/note-manager-web/resources/js/addnote.js"></script>
-<script type="text/javascript">
-	function doAjaxPost() {
-		var title = $('#title').val();
-		var title_text = $('#title_text').val();
-
-		$.ajax({
-			type : "POST",
-			url : "/note-manager-web/AddsTitle.htm",
-			data : "title=" + title + "&text=" + title_text,
-			success : function(response) {
-				$('#info').html(response);
-				$('#title').val('');
-				$('#title_text').val('');
-			},
-			error : function(e) {
-				alert('Error: ' + e);
-			}
-		});
-	}
-</script>
 </head>
 <body>
 	<h1>Title text adder</h1>

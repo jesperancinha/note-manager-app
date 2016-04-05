@@ -4,13 +4,15 @@
 * mvn tomcat7:deploy
 * mvn tomcat7:undeploy
 * mvn tomcat7:redeploy
+* mvn tomcat7:run
 
 ## Usefull test commands
 * Should not work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titles/add -d '{ "title":"title"}'
 * Should work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titles/add -d '{ "title":"title", "text":"text"}'
 * Test in the browser: http://localhost:8080/note-manager-api/rest/tta/titles/list/xt
 
-## Usefull Solr commands:
+## Solr Build
+* http://localhost:8983/solr/#/mysql-tta-indexing/dataimport?command=full-import
 * ./solr create -c mysql-tta-indexing -d basic_configs
 
 ## References:

@@ -1,108 +1,129 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.steelzack.tta</groupId>
-	<artifactId>note-manager-web</artifactId>
-	<packaging>war</packaging>
-	<version>1.0.0-SNAPSHOT</version>
-	<name>note-manager Maven Webapp</name>
-	<url>http://maven.apache.org</url>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.steelzack.tta</groupId>
+    <artifactId>note-manager-web</artifactId>
+    <packaging>war</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>note-manager Maven Webapp</name>
+    <url>http://maven.apache.org</url>
 
-	<properties>
-		<spring.version>4.2.5.RELEASE</spring.version>
-		<jackson.version>1.9.10</jackson.version>
-		<jdk.version>1.8</jdk.version>
-		<jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
-		<junit>4.12</junit>
-		<weld.servlet>2.3.3.Final</weld.servlet>
-		<jackson.databind>2.7.3</jackson.databind>
-	</properties>
+    <properties>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <jackson.version>1.9.10</jackson.version>
+        <jdk.version>1.8</jdk.version>
+        <jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
+        <junit>4.12</junit>
+        <weld.servlet>2.3.3.Final</weld.servlet>
+        <jackson.databind>2.7.3</jackson.databind>
+        <exec.maven.plugin>1.4.0</exec.maven.plugin>
+    </properties>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
-				<configuration>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.mortbay.jetty</groupId>
-				<artifactId>jetty-maven-plugin</artifactId>
-				<version>${jetty.maven.plugin}</version>
-				<configuration>
-					<contextHandlers>
-						<contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
-							<contextPath>/note-manager-api</contextPath>
-							<war>${basedir}/../note-manager-api/target/note-manager-api.war</war>
-						</contextHandler>
-						<contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
-							<contextPath>/note-manager-web</contextPath>
-							<war>${basedir}/../note-manager-web/target/note-manager-web.war</war>
-						</contextHandler>
-					</contextHandlers>
-					<connectors>
-						<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-							<port>8080</port>
-							<maxIdleTime>60000</maxIdleTime>
-						</connector>
-					</connectors>
-					<stopKey/>
-					<stopPort/>
-				</configuration>
-			</plugin>
-		</plugins>
-		<finalName>note-manager-web</finalName>
-	</build>
-	<dependencies>
-		<!-- Spring -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>${exec.maven.plugin}</version>
+                <executions>
+                    <execution>
+                        <id>exec-bower-install</id>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <executable>bower</executable>
+                            <arguments>
+                                <argument>install</argument>
+                            </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>${jetty.maven.plugin}</version>
+                <configuration>
+                    <contextHandlers>
+                        <contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
+                            <contextPath>/note-manager-api</contextPath>
+                            <war>${basedir}/../note-manager-api/target/note-manager-api.war</war>
+                        </contextHandler>
+                        <contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
+                            <contextPath>/note-manager-web</contextPath>
+                            <war>${basedir}/../note-manager-web/target/note-manager-web.war</war>
+                        </contextHandler>
+                    </contextHandlers>
+                    <connectors>
+                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                            <port>8080</port>
+                            <maxIdleTime>60000</maxIdleTime>
+                        </connector>
+                    </connectors>
+                    <stopKey/>
+                    <stopPort/>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>note-manager-web</finalName>
+    </build>
+    <dependencies>
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
 
-		<!-- Jackson JSON Mapper -->
-		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-mapper-asl</artifactId>
-			<version>${jackson.version}</version>
-		</dependency>
+        <!-- Jackson JSON Mapper -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
 
-		<!-- JUnit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>${junit}</version>
-		</dependency>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit}</version>
+        </dependency>
 
-		<!-- Weld for CDI -->
-		<dependency>
-			<groupId>org.jboss.weld.servlet</groupId>
-			<artifactId>weld-servlet</artifactId>
-			<version>${weld.servlet}</version>
-		</dependency>
+        <!-- Weld for CDI -->
+        <dependency>
+            <groupId>org.jboss.weld.servlet</groupId>
+            <artifactId>weld-servlet</artifactId>
+            <version>${weld.servlet}</version>
+        </dependency>
 
-		<!-- Jackson databind -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>${jackson.databind}</version>
-		</dependency>
-	</dependencies>
+        <!-- Jackson databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.databind}</version>
+        </dependency>
+    </dependencies>
 </project>
