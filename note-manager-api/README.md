@@ -12,7 +12,7 @@
 * Test in the browser: http://localhost:8080/note-manager-api/rest/tta/titles/list/xt
 
 ## Solr Build
-* http://localhost:8983/solr/#/mysql-tta-indexing/dataimport?command=full-import
+* http://localhost:8983/solr/#/notemanagercol/dataimport?command=full-import
 * ./solr create -c notemanagercol -d basic_configs
 
 ## References:

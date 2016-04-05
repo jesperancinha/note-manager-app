@@ -12,7 +12,7 @@ public class SolrJSearcher {
 	private HttpSolrClient solr;
 
 	public SolrJSearcher() {
-		solr = new HttpSolrClient("http://localhost:8983/solr/mysql-tta-indexing");
+		solr = new HttpSolrClient("http://localhost:8983/solr/notemanagercol");
 	}
 
 	public SolrDocumentList getAllFilteredResults(final String filter) throws SolrServerException, IOException {
