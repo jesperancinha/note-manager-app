@@ -5,7 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Adds titles</title>
-<script src="/note-manager-web/js/jquery-1.12.2.min.js"></script>
+<script src="/note-manager-web/resources/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/note-manager-web/resources/bower_components/angular/angular.min.js"></script>
+<script src="/note-manager-web/resources/bower_components/angular-route/angular-route.min.js"></script>
+<script src="/note-manager-web/resources/js/addnote.js"></script>
 <script type="text/javascript">
 	function doAjaxPost() {
 		var title = $('#title').val();
@@ -30,30 +33,13 @@
 <body>
 	<h1>Title text adder</h1>
 	<h2>Edit text</h2>
-	<table>
-		<tr>
-			<td>Enter title :</td>
-			<td><input type="text" id="title"><br /></td>
-		</tr>
-		<tr>
-			<td>Enter Text :</td>
-			<td><input type="text" id="title_text"><br /></td>
-		</tr>
-		<tr>
-			<td colspan="2"><input type="button" value="Save Title"
-				onclick="doAjaxPost()"><br /></td>
-		</tr>
-		<tr>
-			<td colspan="2"><div id="info" style="color: blue;"></div></td>
-		</tr>
-	</table>
-	<form method="post" action="/note-manager-web/ShowTitles.htm">
-	<table>
-		<tr>
-			<td><input type="text" name="text_filter"><br /></td>
-			<td><input type="submit" value="Show filtered Titles">
-		</tr>
-	</table>
-	</form>
+	<div ng-app="NoteManager" ng-controller="AddNote">
+        <p>Title: <input type="text" name="title" ng-model="title" required /></p>
+        <p>Text: <input type="text" name="text" ng-model="text" required /></p>
+        <button ng-click="addNote()">Submit</button>
+        <hr />
+        {{ PostDataResponse }}
+    </div>
+
 </body>
 </html>
