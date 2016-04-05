@@ -41,6 +41,16 @@ or
 
 * You need to manually install it: *See: http://www.apache.org/dyn/closer.lua/lucene/solr/5.5.0*
 
+
+> Starting
+* $ solr start
+
+(*see more details in note-manager-api*)
+
+> Location
+
+* http://localhost:8983/solr
+
 Use bower in the note-manager-web folder:
 
 ```
