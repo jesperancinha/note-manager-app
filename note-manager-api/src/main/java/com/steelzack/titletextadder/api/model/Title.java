@@ -1,20 +1,14 @@
 package com.steelzack.titletextadder.api.model;
 
+import javax.persistence.*;
 import java.sql.Date;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
 @Table(name = "titles")
 public class Title {
 
 	@Id
-	@Column(name = "table_id")
+	@Column(name = "title_id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
