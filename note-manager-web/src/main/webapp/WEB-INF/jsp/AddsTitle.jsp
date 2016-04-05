@@ -21,5 +21,13 @@
         {{ PostDataResponse }}
     </div>
 
+	<form method="post" action="/note-manager-web/ShowTitles.htm">
+	<table>
+		<tr>
+			<td><input type="text" name="text_filter"><br /></td>
+			<td><input type="submit" value="Show filtered Titles">
+		</tr>
+	</table>
+	</form>
 </body>
 </html>

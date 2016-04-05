@@ -582,7 +582,7 @@ b dir="../../../lib/" regex="mysql-connector-java-5.1.29-bin.jar" />
     <defaultQuery>*:*</defaultQuery>
   </admin>
 
-<lib dir="../../../lib/" regex="mysql-connector-java-5.1.29-bin.jar" />
+<lib dir="../../../lib/" regex="mysql-connector-java-5.1.32-bin.jar" />
 <lib dir="../../../contrib/dataimporthandler/lib/" regex=".*\.jar" />
 <lib dir="../../../dist/" regex="solr-dataimporthandler-\d.*\.jar" />
 

@@ -1,4 +1,4 @@
-# Note manager
+# Note manager WebApp
 
 *"This web applications was formerly known as title-text-adder"*
 

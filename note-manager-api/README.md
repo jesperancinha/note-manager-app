@@ -1,4 +1,4 @@
-# Title text adder REST API
+# Note Manager REST API
 
 ## Usefull deploy commads
 * mvn tomcat7:deploy
@@ -13,7 +13,7 @@
 
 ## Solr Build
 * http://localhost:8983/solr/#/mysql-tta-indexing/dataimport?command=full-import
-* ./solr create -c mysql-tta-indexing -d basic_configs
+* ./solr create -c notemanagercol -d basic_configs
 
 ## References:
 * http://www.solrtutorial.com/solr-in-5-minutes.html
