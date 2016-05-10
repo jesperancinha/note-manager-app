@@ -1,7 +1,5 @@
 # Title text adder Web APP
 
-
-
 ## Usefull deploy commads
 
 * mvn jetty:run
@@ -11,6 +9,15 @@
 * npm install -g bower
 
 * mvn archetype:generate -DgroupId=<> -DartifactId=<> -DarchetypeArtifactId=<> -DinteractiveMode=false
+
+
+## Endpoints for testing:
+
+* http://localhost:8080/note-manager-web/rest/tta/titles/test
+
+```
+$ curl http://localhost:8080/note-manager-web/rest/tta/titles/test
+```
 
 ## References:
 
