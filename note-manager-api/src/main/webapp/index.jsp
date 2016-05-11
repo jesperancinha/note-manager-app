@@ -1,5 +1,3 @@
-<html>
-<body>
-<h2>REST api for Title text-adder</h2>
-</body>
-</html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<jsp:forward page="/AddsTitle.htm"></jsp:forward>
