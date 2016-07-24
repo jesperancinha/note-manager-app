@@ -10,3 +10,6 @@ notemanagercol/data
 
 # MAC-OSX
 **/.DS_Store
+
+# Spring Boot
+.mvn
