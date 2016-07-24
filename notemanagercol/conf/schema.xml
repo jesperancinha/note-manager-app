@@ -170,7 +170,7 @@
         or to add multiple fields to the same field for easier/faster searching.  -->
 
   <!--
-   <copyField source="title" dest="text"/>
+   <copyField source="titleEntity" dest="text"/>
    <copyField source="body" dest="text"/>
   -->
   
@@ -530,5 +530,5 @@
                              refreshInterval: Number of minutes between each rates fetch (default: 1440, min: 60)
    -->
     <fieldType name="currency" class="solr.CurrencyField" precisionStep="8" defaultCurrency="USD" currencyConfig="currency.xml" />
-<dynamicField name="title*"  type="text_general"   multiValued="false" indexed="true"  stored="true" />
+<dynamicField name="titleEntity*"  type="text_general"   multiValued="false" indexed="true"  stored="true" />
 </schema>

@@ -13,10 +13,10 @@
 
 ## Endpoints for testing:
 
-* http://localhost:8080/note-manager-web/rest/tta/titles/test
+* http://localhost:8080/note-manager-web/rest/tta/titleEntities/test
 
 ```
-$ curl http://localhost:8080/note-manager-web/rest/tta/titles/test
+$ curl http://localhost:8080/note-manager-web/rest/tta/titleEntities/test
 ```
 
 ## References:
