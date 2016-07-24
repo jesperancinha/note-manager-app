@@ -20,7 +20,6 @@
         <weld.servlet>2.3.3.Final</weld.servlet>
 		<jackson.databind>2.7.3</jackson.databind>
 		<tomcat.plugin.version>2.2</tomcat.plugin.version>
-		<hibernate.c3p0>5.1.0.Final</hibernate.c3p0>
 		<javax.servlet>3.0.1</javax.servlet>
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
 		<lombok.version>1.16.10</lombok.version>
@@ -51,6 +50,7 @@
 		</plugins>
 		<finalName>note-manager-api</finalName>
 	</build>
+
 	<dependencies>
 		<!-- JUnit -->
 		<dependency>
@@ -143,13 +143,6 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.databind}</version>
-		</dependency>
-
-		<!-- C3P0 -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-c3p0</artifactId>
-			<version>5.1.0.Final</version>
 		</dependency>
 
 		<!-- Javax Servlet -->

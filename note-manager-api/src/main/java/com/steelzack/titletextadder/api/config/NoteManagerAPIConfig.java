@@ -1,5 +1,6 @@
 package com.steelzack.titletextadder.api.config;
 
+import com.steelzack.titletextadder.api.solr.SolrJSearcherImpl;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,7 +33,9 @@ public class NoteManagerAPIConfig{
                 "com.steelzack.titletextadder.api.controller",
                 "com.steelzack.titletextadder.api.controller",
                 "com.steelzack.titletextadder.api.dao",
-                "com.steelzack.titletextadder.api.model");
+                "com.steelzack.titletextadder.api.model",
+                "com.steelzack.titletextadder.api.solr"
+        );
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 
         vendorAdapter.setGenerateDdl(true);
@@ -69,16 +72,15 @@ public class NoteManagerAPIConfig{
     Properties additionalProperties() {
         Properties properties = new Properties();
         properties.setProperty("hibernate.hbm2ddl.auto", "create");
-        properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+        properties.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQL94Dialect");
         properties.setProperty("show_sql", "false");
         properties.setProperty("hibernate.current_session_context_class", "thread");
-        properties.setProperty("hibernate.connection.provider_class", "org.hibernate.connection.C3P0ConnectionProvider");
-        properties.setProperty("hibernate.c3p0.max_size", "100");
-        properties.setProperty("hibernate.c3p0.min_size", "0");
-        properties.setProperty("hibernate.c3p0.acquire_increment", "1");
-        properties.setProperty("hibernate.c3p0.idle_test_period", "300");
-        properties.setProperty("hibernate.c3p0.max_statements", "0");
-        properties.setProperty("hibernate.c3p0.timeout", "100");
         return properties;
+    }
+
+    @Bean
+    public SolrJSearcherImpl solrJSearcher()
+    {
+        return new SolrJSearcherImpl();
     }
 }

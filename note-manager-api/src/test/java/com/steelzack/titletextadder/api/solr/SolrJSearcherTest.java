@@ -13,22 +13,21 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {NoteManagerAPIConfig.class})
-@Ignore
 public class SolrJSearcherTest {
     final Mockery context = new Mockery();
 
     @Autowired
-    private SolrSearcher searcher;
+    private SolrSearcher solrSearcher;
 
     @Test
     public void testSearchIsNotNull() {
-        Assert.assertNotNull(searcher);
+        Assert.assertNotNull(solrSearcher);
     }
 
     @Test
     @Ignore
     public void testGetAllFilteredResults() throws Exception {
-        final SolrDocumentList results = searcher.getAllFilteredResults("*");
+        final SolrDocumentList results = solrSearcher.getAllFilteredResults("*");
         for (int i = 0; i < results.size(); ++i) {
             System.out.println(results.get(i).get("title"));
             System.out.println(results.get(i).get("title_text"));
