@@ -1,7 +1,7 @@
 package com.steelzack.titletextadder.api.service;
 
 import com.steelzack.titletextadder.api.dao.TitleDao;
-import com.steelzack.titletextadder.api.model.Title;
+import com.steelzack.titletextadder.api.model.TitleEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -15,18 +15,18 @@ public class TitleServiceImpl implements TitleService {
 	}
 
 	@Override
-	public void persist(Title entity) {
+	public void persist(TitleEntity entity) {
 		titleDao.persist(entity);
 	}
 
 	@Override
-	public void update(Title entity) {
+	public void update(TitleEntity entity) {
 		titleDao.update(entity);
 	}
 
 	@Override
-	public void delete(Title title) {
-		titleDao.delete(title);
+	public void delete(TitleEntity titleEntity) {
+		titleDao.delete(titleEntity);
 	}
 
 	@Override

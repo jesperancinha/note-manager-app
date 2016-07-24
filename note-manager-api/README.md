@@ -7,9 +7,9 @@
 * mvn tomcat7:run
 
 ## Usefull test commands
-* Should not work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titles/add -d '{ "title":"title"}'
-* Should work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titles/add -d '{ "title":"title", "text":"text"}'
-* Test in the browser: http://localhost:8080/note-manager-api/rest/tta/titles/list/xt
+* Should not work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titleEntities/add -d '{ "titleEntity":"titleEntity"}'
+* Should work: curl -H "Content-Type: application/json" -X POST http://localhost:8080/note-manager-api/rest/tta/titleEntities/add -d '{ "titleEntity":"titleEntity", "text":"text"}'
+* Test in the browser: http://localhost:8080/note-manager-api/rest/tta/titleEntities/list/xt
 
 ## Solr Build
 * http://localhost:8983/solr/#/notemanagercol/dataimport?command=full-import

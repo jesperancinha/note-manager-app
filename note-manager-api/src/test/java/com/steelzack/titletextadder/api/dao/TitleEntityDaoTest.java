@@ -3,7 +3,7 @@ package com.steelzack.titletextadder.api.dao;
 import org.jmock.Mockery;
 import org.junit.Test;
 
-public class TitleDaoTest {
+public class TitleEntityDaoTest {
 
 	final Mockery mock = new Mockery();
 

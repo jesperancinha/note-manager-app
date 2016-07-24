@@ -1,6 +1,6 @@
 package com.steelzack.titletextadder.api.dao;
 
-import com.steelzack.titletextadder.api.model.Title;
+import com.steelzack.titletextadder.api.model.TitleEntity;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -9,7 +9,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 @Repository
-public class TitleDao implements TitleDaoInterface<Title> {
+public class TitleDao implements TitleDaoInterface<TitleEntity> {
     private EntityTransaction currentTransaction;
 
     private EntityManagerFactory entityManagerFactory;
@@ -19,7 +19,7 @@ public class TitleDao implements TitleDaoInterface<Title> {
         entityManagerFactory = Persistence.createEntityManagerFactory("note.manager.app.jpa");
     }
 
-    public void persist(Title entity) {
+    public void persist(TitleEntity entity) {
         entityManager = entityManagerFactory.createEntityManager();
         currentTransaction = entityManager.getTransaction();
         currentTransaction.begin();
@@ -28,7 +28,7 @@ public class TitleDao implements TitleDaoInterface<Title> {
 
     }
 
-    public void update(Title entity) {
+    public void update(TitleEntity entity) {
         entityManager = entityManagerFactory.createEntityManager();
         currentTransaction = entityManager.getTransaction();
         currentTransaction.begin();
@@ -37,7 +37,7 @@ public class TitleDao implements TitleDaoInterface<Title> {
 
     }
 
-    public void delete(Title entity) {
+    public void delete(TitleEntity entity) {
         entityManager = entityManagerFactory.createEntityManager();
         currentTransaction = entityManager.getTransaction();
         currentTransaction.begin();

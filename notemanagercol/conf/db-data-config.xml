@@ -5,6 +5,6 @@
             user="root"
             password="" />
   <document>
-    <entity name="id" query="select title_id as id, title, title_text, title_submission_date, title_text_score from titles;" />
+    <entity name="id" query="select title_id as id, titleEntity, title_text, title_submission_date, title_text_score from titleEntities;" />
   </document>
 </dataConfig>

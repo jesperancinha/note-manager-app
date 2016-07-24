@@ -9,7 +9,7 @@
             Persistence unit for Note Manager
         </description>
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>com.steelzack.titletextadder.api.model.Title</class>
+        <class>com.steelzack.titletextadder.api.model.TitleEntity</class>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>

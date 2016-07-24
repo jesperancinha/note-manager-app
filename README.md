@@ -1,6 +1,6 @@
 # Note manager WebApp
 
-*"This web applications was formerly known as title-text-adder"*
+*"This web applications was formerly known as titleEntity-text-adder"*
 
 ## Building notes
 
