@@ -12,10 +12,10 @@
         <class>com.steelzack.titletextadder.api.model.Title</class>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
-            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://localhost/tta_db?createDatabaseIfNotExist=true"/>
-            <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/tta_db?createDatabaseIfNotExist=true"/>
+            <property name="hibernate.connection.username" value="test"/>
+            <property name="hibernate.connection.password" value="test"/>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
             <property name="show_sql" value="false"/>
             <property name="hibernate.current_session_context_class" value="thread"/>

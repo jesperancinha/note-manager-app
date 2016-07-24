@@ -16,13 +16,13 @@
         <maven.compiler.plugin>2.3.2</maven.compiler.plugin>
         <junit>4.12</junit>
         <hibernate.core>5.1.0.Final</hibernate.core>
-        <mysql.connector.java>5.1.38</mysql.connector.java>
         <solr.solrj>5.5.0</solr.solrj>
         <weld.servlet>2.3.3.Final</weld.servlet>
 		<jackson.databind>2.7.3</jackson.databind>
 		<tomcat.plugin.version>2.2</tomcat.plugin.version>
 		<hibernate.c3p0>5.1.0.Final</hibernate.c3p0>
 		<javax.servlet>3.0.1</javax.servlet>
+		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
 	</properties>
 
 	<build>
@@ -62,11 +62,13 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate.core}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.connector.java}</version>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgresql.version}</version>
 		</dependency>
+
 
 		<!-- Solr Server -->
 		<dependency>

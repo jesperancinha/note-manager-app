@@ -4,28 +4,15 @@
 
 ## Building notes
 
-* You will need an installation of MySQL for the meantime
-
-> MacOS
+### Use docker for your installation:
 
 ```
-$ brew install mysql
-$ mysqld
-$ mysql -u root
+$ docker build -t eg_postgresql .
 
-```
+$ docker run --rm -P -p 5432:5432 --name pg_test eg_postgresql
 
-or
-> Linux
+$ mvn install
 
-```
-$ sudo apt-get install mysql
-```
-
-> Commands
-
-```
-mysql> SHOW DATABASES
 ```
 
 Solr is required to be running. You will need to configure your collection and how you want it to be attached to your databas
