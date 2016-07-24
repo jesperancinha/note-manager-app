@@ -24,6 +24,8 @@
 		<javax.servlet>3.0.1</javax.servlet>
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
 		<lombok.version>1.16.10</lombok.version>
+		<mockito-all.version>1.10.19</mockito-all.version>
+		<hibernate-entitymanager.version>5.1.0.Final</hibernate-entitymanager.version>
 	</properties>
 
 	<build>
@@ -103,6 +105,18 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
 		<!-- Jackson JSON Mapper -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -152,6 +166,21 @@
 			<artifactId>lombok</artifactId>
 			<version>${lombok.version}</version>
 			<scope>provided</scope>
+		</dependency>
+
+		<!-- Entity Manager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate-entitymanager.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>${mockito-all.version}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>

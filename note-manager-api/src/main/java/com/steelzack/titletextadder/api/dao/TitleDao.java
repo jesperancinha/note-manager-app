@@ -1,23 +1,21 @@
 package com.steelzack.titletextadder.api.dao;
 
 import com.steelzack.titletextadder.api.model.TitleEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
 
 @Repository
 public class TitleDao implements TitleDaoInterface<TitleEntity> {
     private EntityTransaction currentTransaction;
 
+    @Autowired
     private EntityManagerFactory entityManagerFactory;
-    private EntityManager entityManager;
 
-    public TitleDao() {
-        entityManagerFactory = Persistence.createEntityManagerFactory("note.manager.app.jpa");
-    }
+    private EntityManager entityManager;
 
     public void persist(TitleEntity entity) {
         entityManager = entityManagerFactory.createEntityManager();
