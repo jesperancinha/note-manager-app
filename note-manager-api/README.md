@@ -1,5 +1,12 @@
 # Note Manager REST API
 
+
+## You must have docker running or a postgres database running locally  on port 5432.
+
+```
+$ docker run --rm -P -p 5432:5432 --name pg_test eg_postgresql
+```
+
 ## Usefull deploy commads
 * mvn tomcat7:deploy
 * mvn tomcat7:undeploy

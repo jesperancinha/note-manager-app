@@ -9,7 +9,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <spring.version>4.2.5.RELEASE</spring.version>
+        <spring.version>4.2.7.RELEASE</spring.version>
         <jackson.version>1.9.10</jackson.version>
         <jdk.version>1.8</jdk.version>
         <jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
@@ -24,16 +24,25 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>${exec.maven.plugin}</version>
                 <executions>
                     <execution>
-                        <id>exec-bower-install</id>
+                        <id>exec-npm-install</id>
                         <phase>generate-sources</phase>
                         <configuration>
-                            <executable>bower</executable>
+                            <executable>npm</executable>
                             <arguments>
                                 <argument>install</argument>
                             </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>exec-grunt</id>
+                        <phase>process-resources</phase>
+                        <configuration>
+                            <executable>grunt</executable>
                         </configuration>
                         <goals>
                             <goal>exec</goal>
@@ -75,46 +84,47 @@
                     <stopPort/>
                 </configuration>
             </plugin>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-dependency-plugin</artifactId>
-    <version>2.10</version>
-    <configuration>
-        <outputDirectory>${project.build.directory}/alternateLocation</outputDirectory>
-    </configuration>
-    <executions>
-        <execution>
-            <id>copy-dependencies</id>
-            <phase>post-clean</phase>
-            <goals>
-                <goal>copy-dependencies</goal>
-            </goals>
-            <configuration>
-                <outputDirectory>${project.build.directory}/alternateLocation</outputDirectory>
-                <overWriteReleases>false</overWriteReleases>
-                <overWriteSnapshots>false</overWriteSnapshots>
-                <overWriteIfNewer>true</overWriteIfNewer>
-            </configuration>
-        </execution>
-        <execution>
-            <id>sources</id>
-            <phase>post-clean</phase>
-            <goals>
-                <goal>copy-dependencies</goal>
-            </goals>
-            <configuration>
-                <classifier>sources</classifier>
-                <outputDirectory>${project.build.directory}/alternateLocation</outputDirectory>
-                <overWriteReleases>false</overWriteReleases>
-                <overWriteSnapshots>false</overWriteSnapshots>
-                <overWriteIfNewer>true</overWriteIfNewer>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <configuration>
+                    <outputDirectory>${project.build.directory}/alternateLocation</outputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>post-clean</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/alternateLocation</outputDirectory>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>false</overWriteSnapshots>
+                            <overWriteIfNewer>true</overWriteIfNewer>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>sources</id>
+                        <phase>post-clean</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>sources</classifier>
+                            <outputDirectory>${project.build.directory}/alternateLocation</outputDirectory>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>false</overWriteSnapshots>
+                            <overWriteIfNewer>true</overWriteIfNewer>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
         <finalName>note-manager-web</finalName>
     </build>
+
     <dependencies>
         <!-- Spring -->
         <dependency>
@@ -161,6 +171,17 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.databind}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>
