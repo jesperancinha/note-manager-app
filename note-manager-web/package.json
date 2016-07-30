@@ -1,0 +1,26 @@
+{
+  "name": "note-manager-web",
+  "version": "1.0.0",
+  "description": "This is just an web-app do insert notes and make them searchable via SOLR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesperancinha/note-manager-app/tree/master/note-manager-web"
+  },
+  "author": "João Esperancinha",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-messages": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-init": "^0.3.2",
+    "grunt-package-modules": "^0.1.3"
+  }
+}
