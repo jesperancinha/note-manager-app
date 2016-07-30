@@ -1,13 +1,15 @@
 # Note manager WebApp
 
-*"This web applications was formerly known as titleEntity-text-adder"*
-
 ## Building notes
 
 ### Use docker for your installation:
 
 ```
+$ docker-machine start
+
 $ docker-machine env default
+
+$ eval $(docker-machine env default)
 
 $ docker build -t eg_postgresql .
 
@@ -17,6 +19,14 @@ $ mvn install
 
 ```
 
+* You can alwasys intall the npm dependencies manually:
+
+```
+$ npm install
+
+$ grunt
+
+```
 Solr is required to be running. You will need to configure your collection and how you want it to be attached to your databas
 
 > MacOS

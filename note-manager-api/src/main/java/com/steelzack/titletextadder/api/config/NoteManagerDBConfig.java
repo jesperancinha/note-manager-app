@@ -22,6 +22,7 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 public class NoteManagerDBConfig {
+
     @Value("#{'${note.manager.db.ip:172.0.0.1}'}")
     private String postgresIp;
 

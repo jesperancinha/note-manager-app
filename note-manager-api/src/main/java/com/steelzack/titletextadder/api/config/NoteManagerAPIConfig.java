@@ -1,9 +1,11 @@
 package com.steelzack.titletextadder.api.config;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 
 /**
@@ -18,4 +20,8 @@ import org.springframework.context.annotation.PropertySource;
 })
 public class NoteManagerAPIConfig {
 
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer propertyConfigInDev() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
 }
