@@ -5,6 +5,7 @@ import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocumentList;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -13,14 +14,12 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-@Service("solrJSearcherImpl")
+@Service("solrJSearcher")
 @Component
 public class SolrJSearcherImpl implements SolrSearcher {
-	private HttpSolrClient solr;
 
-	public SolrJSearcherImpl() {
-		solr = new HttpSolrClient("http://localhost:8983/solr/notemanagercol");
-	}
+	@Autowired
+	private HttpSolrClient solr;
 
 	@Override
 	public SolrDocumentList getAllFilteredResults(final String filter) throws SolrServerException, IOException {

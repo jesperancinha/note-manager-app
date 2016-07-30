@@ -1,8 +1,8 @@
 package com.steelzack.titletextadder.api.solr;
 
-import com.steelzack.titletextadder.api.config.NoteManagerAPIConfig;
+import com.steelzack.titletextadder.api.config.NoteManagerAPIConfigTest;
+import com.steelzack.titletextadder.api.config.NoteManagerElasticSearchConfigTest;
 import org.apache.solr.common.SolrDocumentList;
-import org.jmock.Mockery;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -12,9 +12,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {NoteManagerAPIConfig.class})
+@ContextConfiguration(classes = {NoteManagerAPIConfigTest.class, NoteManagerElasticSearchConfigTest.class})
 public class SolrJSearcherTest {
-    final Mockery context = new Mockery();
 
     @Autowired
     private SolrSearcher solrSearcher;
