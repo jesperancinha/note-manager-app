@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
     "grunt-init": "^0.3.2",
     "grunt-package-modules": "^0.1.3"
   }

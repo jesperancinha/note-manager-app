@@ -24,16 +24,25 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>${exec.maven.plugin}</version>
                 <executions>
                     <execution>
-                        <id>exec-bower-install</id>
+                        <id>exec-npm-install</id>
                         <phase>generate-sources</phase>
                         <configuration>
-                            <executable>bower</executable>
+                            <executable>npm</executable>
                             <arguments>
                                 <argument>install</argument>
                             </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>exec-grunt</id>
+                        <phase>process-resources</phase>
+                        <configuration>
+                            <executable>grunt</executable>
                         </configuration>
                         <goals>
                             <goal>exec</goal>
