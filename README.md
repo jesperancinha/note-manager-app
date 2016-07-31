@@ -50,11 +50,6 @@ or
 
 * http://localhost:8983/solr
 
-Use bower in the note-manager-web folder:
-
-```
-../note-manager-web$ bower install
-```
 
 This application is using JETTY in the Maven POM files. (NOTE: It was already been tested in Tomcat7)
 
