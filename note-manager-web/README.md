@@ -6,8 +6,6 @@
 
 ## Build commands used
 
-* npm install -g bower
-
 * mvn archetype:generate -DgroupId=<> -DartifactId=<> -DarchetypeArtifactId=<> -DinteractiveMode=false
 
 
