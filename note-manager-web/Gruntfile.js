@@ -1,21 +1,20 @@
 module.exports = function(grunt){
 
-    grunt.loadNpmTasks('grunt-package-modules');
-    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.initConfig({
-
-      packageModules: {
-        dist: {
-          src: 'package.json',
-          dest: 'src/main/webapp'
-        },
-      },
-
-      clean:['src/main/webapp/package.json']
-      ,
-
+      uglify: {
+          options: {
+              sourceMap: false,
+              wrap: 'exports',
+              mangle: false
+          },
+          js: {
+              src: ['src/main/webapp/resources/js/addnote.js'],
+              dest: 'src/main/webapp/resources/js/addnote.min.js'
+          }
+       }
     });
 
-    grunt.registerTask('default', ['packageModules', 'clean']);
+    grunt.registerTask('default', ['uglify']);
 }

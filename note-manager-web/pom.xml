@@ -61,8 +61,16 @@
                             <arguments>sourcefiles/addnote.js src/main/webapp/resources/js/addnote.js</arguments>
                         </configuration>
                     </execution>
-                </executions>
+                    <execution>
+                        <id>grunt build</id>
+                        <goals>
+                            <goal>grunt</goal>
+                        </goals>
 
+                        <!-- optional: the default phase is "generate-resources" -->
+                        <phase>generate-resources</phase>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

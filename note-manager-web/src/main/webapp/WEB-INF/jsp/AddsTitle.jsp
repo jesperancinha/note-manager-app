@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Adds titles</title>
-<script src="/note-manager-web/resources/js/addnote.js"></script>
+<script src="/note-manager-web/resources/js/addnote.min.js"></script>
 </head>
 <body>
 	<h1>Title text adder</h1>
