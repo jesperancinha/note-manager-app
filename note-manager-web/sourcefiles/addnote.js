@@ -1,3 +1,7 @@
+var angular = require("angular");
+require("angular-route")
+require("jquery")
+
 var app = angular.module ("NoteManager", ['ngRoute']);
 
 app.controller("AddNote", function($scope, $http) {

@@ -4,3 +4,6 @@ src/main/webapp/resources/bower_components
 # NPM
 node_modules
 src/main/webapp/node_modules
+
+# Webpack
+src/main/webapp/resources

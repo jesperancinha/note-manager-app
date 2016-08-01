@@ -5,9 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Adds titles</title>
-<script src="/note-manager-web/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="/note-manager-web/node_modules/angular/angular.min.js"></script>
-<script src="/note-manager-web/node_modules/angular-route/angular-route.min.js"></script>
 <script src="/note-manager-web/resources/js/addnote.js"></script>
 </head>
 <body>
