@@ -8,3 +8,7 @@ npm-debug.log
 
 # Webpack
 src/main/webapp/resources
+
+# Eclipse
+title-text-adder.eml
+title-text-adder.userlibraries
