@@ -4,6 +4,7 @@ src/main/webapp/resources/bower_components
 # NPM
 node_modules
 src/main/webapp/node_modules
+npm-debug.log
 
 # Webpack
 src/main/webapp/resources
