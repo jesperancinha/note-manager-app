@@ -9,7 +9,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <spring.version>4.2.9.RELEASE</spring.version>
+        <spring.version>5.2.1.RELEASE</spring.version>
         <jackson.version>1.9.10</jackson.version>
         <jdk.version>1.8</jdk.version>
         <jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
