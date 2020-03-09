@@ -55,7 +55,7 @@ $ solr create -c notemanagercol -d basic_configs
 ## Special Reads
 * https://gist.github.com/maxivak/3e3ee1fca32f3949f052
 
-## About me
+## About me 👨🏽‍💻🚀
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social)](https://twitter.com/joaofse)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=jesperancinha&style=social)](https://github.com/jesperancinha)
