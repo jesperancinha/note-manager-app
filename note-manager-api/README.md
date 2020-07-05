@@ -1,6 +1,4 @@
 # Note Manager REST API
-
-
 ## You must have docker running or a postgres database running locally  on port 5432.
 
 ```

@@ -7,8 +7,6 @@
 ## Build commands used
 
 * mvn archetype:generate -DgroupId=<> -DartifactId=<> -DarchetypeArtifactId=<> -DinteractiveMode=false
-
-
 ## Endpoints for testing:
 
 * http://localhost:8080/note-manager-web/rest/tta/titleEntities/test
