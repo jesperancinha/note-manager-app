@@ -9,13 +9,13 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>5.2.0.RELEASE</spring.version>
+		<spring.version>5.2.3.RELEASE</spring.version>
 		<jackson.version>1.9.10</jackson.version>
 		<jdk.version>1.8</jdk.version>
-		<jmock.junit>2.8.2</jmock.junit>
+		<jmock.junit>2.11.0</jmock.junit>
         <maven.compiler.plugin>2.3.2</maven.compiler.plugin>
         <junit>4.12</junit>
-        <hibernate.core>5.1.0.Final</hibernate.core>
+        <hibernate.core>5.3.18.Final</hibernate.core>
         <solr.solrj>5.5.0</solr.solrj>
         <weld.servlet>2.3.3.Final</weld.servlet>
 		<jackson.databind>2.10.0.pr3</jackson.databind>
