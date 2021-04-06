@@ -20,7 +20,7 @@ $ curl http://localhost:8080/note-manager-web/rest/tta/titleEntities/test
 * http://www.solrtutorial.com/solr-in-5-minutes.html
 * http://blog.comperiosearch.com/blog/2014/08/28/indexing-database-using-solr/
 
-## About me 👨🏽‍💻🚀
+## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social "Twitter")](https://twitter.com/joaofse)

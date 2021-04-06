@@ -25,7 +25,7 @@ $ docker run --rm -P -p 5432:5432 --name pg_test eg_postgresql
 * http://blog.comperiosearch.com/blog/2014/08/28/indexing-database-using-solr/
 * https://examples.javacodegeeks.com/enterprise-java/apache-solr/solr-dataimporthandler-example/
 
-## About me 👨🏽‍💻🚀
+## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social "Twitter")](https://twitter.com/joaofse)
