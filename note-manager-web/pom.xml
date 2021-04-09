@@ -10,7 +10,7 @@
 
     <properties>
         <spring.version>5.3.5</spring.version>
-        <jackson.version>1.9.10</jackson.version>
+        <jackson.version>1.9.13</jackson.version>
         <jdk.version>1.8</jdk.version>
         <jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
         <junit>4.13.1</junit>
