@@ -18,7 +18,7 @@
         <hibernate.core>5.4.30.Final</hibernate.core>
         <solr.solrj>5.5.5</solr.solrj>
         <weld.servlet>2.4.8.Final</weld.servlet>
-		<jackson.databind>2.12.2</jackson.databind>
+		<jackson.databind>2.12.3</jackson.databind>
 		<tomcat.plugin.version>2.2</tomcat.plugin.version>
 		<javax.servlet>3.0.1</javax.servlet>
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
