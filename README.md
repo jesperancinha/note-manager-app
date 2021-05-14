@@ -2,7 +2,7 @@
 
 ## Building notes
 
-### Use docker for your installation:
+### Use docker for your installation
 
 ```
 $ docker-machine start

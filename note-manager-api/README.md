@@ -20,7 +20,7 @@ $ docker run --rm -P -p 5432:5432 --name pg_test eg_postgresql
 * http://localhost:8983/solr/#/notemanagercol/dataimport?command=full-import
 * ./solr create -c notemanagercol -d basic_configs
 
-## References:
+## References
 * http://www.solrtutorial.com/solr-in-5-minutes.html
 * http://blog.comperiosearch.com/blog/2014/08/28/indexing-database-using-solr/
 * https://examples.javacodegeeks.com/enterprise-java/apache-solr/solr-dataimporthandler-example/
