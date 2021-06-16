@@ -24,7 +24,7 @@
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
 		<lombok.version>1.16.10</lombok.version>
 		<mockito-all.version>1.10.19</mockito-all.version>
-		<hibernate-entitymanager.version>5.1.0.Final</hibernate-entitymanager.version>
+		<hibernate-entitymanager.version>5.4.24.Final</hibernate-entitymanager.version>
 		<spring-boot-autoconfigure.version>1.5.22.RELEASE</spring-boot-autoconfigure.version>
 	</properties>
 
