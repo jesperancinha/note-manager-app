@@ -15,7 +15,7 @@
 		<jmock.junit>2.12.0</jmock.junit>
         <maven.compiler.plugin>2.3.2</maven.compiler.plugin>
         <junit>4.13.2</junit>
-        <hibernate.core>5.4.32.Final</hibernate.core>
+        <hibernate.core>5.5.0.Final</hibernate.core>
         <solr.solrj>5.5.5</solr.solrj>
         <weld.servlet>2.4.8.Final</weld.servlet>
 		<jackson.databind>2.12.3</jackson.databind>
