@@ -15,7 +15,7 @@
         <jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
         <junit>4.13.2</junit>
         <weld.servlet>2.4.8.Final</weld.servlet>
-        <jackson.databind>2.12.5</jackson.databind>
+        <jackson.databind>2.12.6</jackson.databind>
         <exec.maven.plugin>1.4.0</exec.maven.plugin>
     </properties>
 
