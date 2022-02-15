@@ -72,7 +72,7 @@
                         <configuration>
                             <!-- optional: if not specified, it will run webpack's default
                             build (and you can remove this whole <configuration> section.) -->
-                            <arguments>./sourcefiles/addnote.js ./src/main/webapp/resources/js/addnote.js</arguments>
+                            <arguments>${project.basedir}/sourcefiles/addnote.js ${project.basedir}/src/main/webapp/resources/js/addnote.js</arguments>
                         </configuration>
                     </execution>
                     <execution>
