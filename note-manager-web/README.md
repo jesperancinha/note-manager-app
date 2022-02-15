@@ -1,5 +1,16 @@
 # Title text adder Web APP
 
+## Update npm dependencies
+
+```shell
+npm install -g npm-check-updates
+
+ncu -u
+npm update
+npm install
+
+```
+
 ## Usefull deploy commads
 
 * mvn jetty:run
