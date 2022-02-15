@@ -11,8 +11,8 @@
         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 
     <context:component-scan base-package="
-            com.steelzack.titletextadder.app.controller
-            com.steelzack.titletextadder.app.config"
+            org.jesperancinha.titletextadder.app.controller
+            org.jesperancinha.titletextadder.app.config"
     />
 
     <mvc:annotation-driven/>
