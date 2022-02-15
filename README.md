@@ -11,6 +11,9 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c087adeb61914ad9ab259e0abbcb6c27)](https://www.codacy.com/gh/jesperancinha/note-manager-app/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/note-manager-app&amp;utm_campaign=Badge_Grade)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/c087adeb61914ad9ab259e0abbcb6c27)](https://www.codacy.com/gh/jesperancinha/note-manager-app/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/note-manager-app&utm_campaign=Badge_Coverage)
+[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/note-manager-app/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/note-manager-app?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/note-manager-app/branch/master/graph/badge.svg?token=2V6LD1PmAW)](https://codecov.io/gh/jesperancinha/note-manager-app)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/note-manager-app.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/note-manager-app.svg)](#)
