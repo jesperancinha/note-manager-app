@@ -69,11 +69,6 @@
                         <!-- optional: the default phase is "generate-resources" -->
                         <phase>generate-resources</phase>
 
-                        <configuration>
-                            <!-- optional: if not specified, it will run webpack's default
-                            build (and you can remove this whole <configuration> section.) -->
-                            <arguments>${project.basedir}/sourcefiles/addnote.js ${project.basedir}/src/main/webapp/resources/js/addnote.js</arguments>
-                        </configuration>
                     </execution>
                     <execution>
                         <id>grunt build</id>
