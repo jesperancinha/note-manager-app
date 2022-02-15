@@ -26,7 +26,7 @@
         <weld.servlet>2.4.8.Final</weld.servlet>
         <jackson.databind>2.13.1</jackson.databind>
         <tomcat.plugin.version>2.2</tomcat.plugin.version>
-        <javax.servlet>3.1.0</javax.servlet>
+        <javax.servlet>4.0.1</javax.servlet>
         <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
         <lombok.version>1.18.22</lombok.version>
         <mockito-all.version>1.10.19</mockito-all.version>
