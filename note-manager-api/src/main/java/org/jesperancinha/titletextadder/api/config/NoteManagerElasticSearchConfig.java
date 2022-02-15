@@ -17,7 +17,7 @@ public class NoteManagerElasticSearchConfig {
 
     @Bean
     public HttpSolrClient solr() {
-        return new HttpSolrClient(solrUrl);
+        return new HttpSolrClient.Builder().withBaseSolrUrl(solrUrl).build();
     }
 
     @Bean
