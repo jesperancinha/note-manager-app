@@ -22,6 +22,7 @@
 		<spring-boot-starter-data-solr.version>1.3.6.RELEASE</spring-boot-starter-data-solr.version>
 		<spring-boot-starter-hornetq.version>1.3.6.RELEASE</spring-boot-starter-hornetq.version>
 		<spring-session.version>1.0.2.RELEASE</spring-session.version>
+		<spring-cloud-starter-hystrix.version>1.1.4.RELEASE</spring-cloud-starter-hystrix.version>
 	</properties>
 	<packaging>pom</packaging>
 
@@ -115,6 +116,11 @@
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session</artifactId>
 				<version>${spring-session.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-hystrix</artifactId>
+				<version>${spring-cloud-starter-hystrix.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
