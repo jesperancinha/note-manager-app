@@ -7,7 +7,7 @@ src/main/webapp/node_modules
 npm-debug.log
 
 # Webpack
-src/main/webapp/resources
+#src/main/webapp/resources
 
 # Eclipse
 title-text-adder.eml
