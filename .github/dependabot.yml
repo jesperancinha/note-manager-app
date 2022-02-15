@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: "daily"
 
-  - package-ecosystem: "note-manager-web"
+  - package-ecosystem: "npm"
     directory: "/note-manager-web"
     schedule:
       interval: "daily"
