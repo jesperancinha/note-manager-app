@@ -21,6 +21,7 @@
         <weld.servlet>2.4.8.Final</weld.servlet>
         <jackson.databind>2.13.1</jackson.databind>
         <exec.maven.plugin>1.4.0</exec.maven.plugin>
+        <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
     </properties>
 
     <build>
@@ -33,8 +34,8 @@
                 <version>1.12.1</version>
 
                 <configuration>
-                    <nodeVersion>v0.10.18</nodeVersion>
-                    <npmVersion>2.15.8</npmVersion>
+                    <nodeVersion>v16.13.1</nodeVersion>
+                    <npmVersion>8.1.2</npmVersion>
                     <installDirectory>target</installDirectory>
                     <nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>
                 </configuration>
@@ -71,7 +72,7 @@
                         <configuration>
                             <!-- optional: if not specified, it will run webpack's default
                             build (and you can remove this whole <configuration> section.) -->
-                            <arguments>sourcefiles/addnote.js src/main/webapp/resources/js/addnote.js</arguments>
+                            <arguments>./sourcefiles/addnote.js ./src/main/webapp/resources/js/addnote.js</arguments>
                         </configuration>
                     </execution>
                     <execution>
@@ -146,6 +147,11 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>${maven-war-plugin.version}</version>
             </plugin>
         </plugins>
         <finalName>note-manager-web</finalName>

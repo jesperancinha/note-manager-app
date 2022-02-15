@@ -13,3 +13,6 @@ notemanagercol/data
 
 # Spring Boot
 .mvn
+
+# Intellij
+dist

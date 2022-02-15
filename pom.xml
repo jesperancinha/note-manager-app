@@ -18,7 +18,6 @@
 		<omni-coveragereporter-maven-plugin.version>0.3.0</omni-coveragereporter-maven-plugin.version>
 		<spring-boot-actuator-docs.version>1.3.6.RELEASE</spring-boot-actuator-docs.version>
 		<spring-boot-starter-parent.version>2.6.3</spring-boot-starter-parent.version>
-		<spring-boot-starter-data-gemfire.version>1.3.6.RELEASE</spring-boot-starter-data-gemfire.version>
 		<spring-boot-starter-data-solr.version>1.3.6.RELEASE</spring-boot-starter-data-solr.version>
 		<spring-boot-starter-hornetq.version>1.3.6.RELEASE</spring-boot-starter-hornetq.version>
 		<spring-session.version>1.0.2.RELEASE</spring-session.version>
@@ -96,11 +95,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-actuator-docs</artifactId>
 				<version>${spring-boot-actuator-docs.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-data-gemfire</artifactId>
-				<version>${spring-boot-starter-data-gemfire.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
