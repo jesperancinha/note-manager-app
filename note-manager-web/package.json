@@ -19,7 +19,7 @@
   "devDependencies": {
     "grunt": "^1.4.1",
     "grunt-cli": "^1.4.3",
-    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-uglify": "^5.1.0",
     "grunt-init": "^0.3.2",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
