@@ -17,7 +17,7 @@
     "jquery": "^3.6.0"
   },
   "devDependencies": {
-    "grunt": "^1.4.1",
+    "grunt": "^1.5.1",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-uglify": "^5.1.0",
     "grunt-init": "^0.3.2",
