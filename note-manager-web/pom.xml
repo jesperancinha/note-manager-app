@@ -14,7 +14,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <spring.version>5.3.20</spring.version>
+        <spring.version>5.3.21</spring.version>
         <jackson.version>1.9.13</jackson.version>
         <jetty.maven.plugin>8.1.16.v20140903</jetty.maven.plugin>
         <junit>4.13.2</junit>
