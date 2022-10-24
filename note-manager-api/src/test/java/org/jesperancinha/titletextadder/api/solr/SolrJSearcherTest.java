@@ -17,7 +17,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class SolrJSearcherTest {
 
     @Autowired
-    private SolrSearcher solrSearcher;
+    private SolrJSearcherImpl solrSearcher;
 
     @Test
     public void testSearchIsNotNull() {
@@ -28,9 +28,9 @@ public class SolrJSearcherTest {
     @Ignore
     public void testGetAllFilteredResults() throws Exception {
         final SolrDocumentList results = solrSearcher.getAllFilteredResults("*");
-        for (int i = 0; i < results.size(); ++i) {
-            System.out.println(results.get(i).get("title"));
-            System.out.println(results.get(i).get("title_text"));
+        for (org.apache.solr.common.SolrDocument result : results) {
+            System.out.println(result.get("title"));
+            System.out.println(result.get("title_text"));
         }
     }
 

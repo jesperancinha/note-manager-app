@@ -18,6 +18,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.Objects;
 
 @Controller
 @Component
@@ -49,13 +50,13 @@ public class JSONControllerForm {
             RestTemplate restTemplate = new RestTemplate();
 
             ResponseEntity<String> response = restTemplate.postForEntity(noteManagerApiUrlAdd, title, String.class);
-            returnText = //
-                    "You have added title: \"". //
-                            concat(title.getTitle()). //
-                            concat("\" with text: \""). //
-                            concat(title.getText()). //
-                            concat("\" and the response is"). //
-                            concat(response.getBody());
+            returnText =
+                    "You have added title: \"".
+                            concat(title.getTitle()).
+                            concat("\" with text: \"").
+                            concat(title.getText()).
+                            concat("\" and the response is").
+                            concat(Objects.requireNonNull(response.getBody()));
 
         } else {
             returnText = "An error has ocurred, it was not possible to add your title to the database";

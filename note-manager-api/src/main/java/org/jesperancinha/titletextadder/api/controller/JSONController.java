@@ -2,8 +2,8 @@ package org.jesperancinha.titletextadder.api.controller;
 
 import org.jesperancinha.titletextadder.api.model.TitleEntity;
 import org.jesperancinha.titletextadder.api.pojo.Response;
-import org.jesperancinha.titletextadder.api.service.TitleService;
-import org.jesperancinha.titletextadder.api.solr.SolrSearcher;
+import org.jesperancinha.titletextadder.api.service.TitleServiceImpl;
+import org.jesperancinha.titletextadder.api.solr.SolrJSearcherImpl;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrDocumentList;
 import org.jesperancinha.titletextadder.api.pojo.ResponseStatus;
@@ -21,15 +21,15 @@ import java.util.List;
 public class JSONController {
 
     @Autowired
-    private TitleService titleService;
+    private TitleServiceImpl titleService;
 
     @Autowired
-    private SolrSearcher searcher;
+    private SolrJSearcherImpl searcher;
 
     @RequestMapping(headers = {"content-type=application/json"}, method = RequestMethod.POST, value = "/add")
     @ResponseBody
     public Response addTitle(@RequestBody
-                                     TitleEntity titleEntity) throws URISyntaxException {
+                             TitleEntity titleEntity) throws URISyntaxException {
         titleService.persist(titleEntity);
         searcher.refreshCollection();
         return new Response(ResponseStatus.OK);
@@ -41,14 +41,14 @@ public class JSONController {
     List<TitleEntity> getTitleInJSON(@PathVariable String filter)
             throws SolrServerException, IOException {
         final SolrDocumentList allFilteredResults = searcher.getAllFilteredResults(filter);
-        List<TitleEntity> titleEntities = new ArrayList<TitleEntity>();
-        for (int i = 0; i < allFilteredResults.size(); ++i) {
-            titleEntities.add( //
-                    TitleEntity.builder() //
-                            .title(allFilteredResults.get(i).get("title").toString()) //
-                            .text(allFilteredResults.get(i).get("title_text").toString()) //
-                            .build() //
-            ); //
+        var titleEntities = new ArrayList<TitleEntity>();
+        for (org.apache.solr.common.SolrDocument allFilteredResult : allFilteredResults) {
+            titleEntities.add(
+                    TitleEntity.builder()
+                            .title(allFilteredResult.get("title").toString())
+                            .text(allFilteredResult.get("title_text").toString())
+                            .build()
+            );
         }
         return titleEntities;
     }

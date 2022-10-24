@@ -16,12 +16,11 @@ import java.net.URISyntaxException;
 
 @Service("solrJSearcher")
 @Component
-public class SolrJSearcherImpl implements SolrSearcher {
+public class SolrJSearcherImpl {
 
 	@Autowired
 	private HttpSolrClient solr;
 
-	@Override
 	public SolrDocumentList getAllFilteredResults(final String filter) throws SolrServerException, IOException {
 		final SolrQuery query = new SolrQuery();
 		query.setQuery("title_text:*" + filter + "*");
@@ -33,8 +32,7 @@ public class SolrJSearcherImpl implements SolrSearcher {
 		return response.getResults();
 	}
 
-	@Override
-	public void refreshCollection() throws URISyntaxException {		
+	public void refreshCollection() throws URISyntaxException {
 		final RestTemplate restTemplate = new RestTemplate();
 
 		final URI url = new URI("http://localhost:8983/solr/notemanagercol/dataimport?command=full-import");

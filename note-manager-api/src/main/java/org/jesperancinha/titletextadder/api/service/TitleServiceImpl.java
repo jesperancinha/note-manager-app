@@ -7,29 +7,25 @@ import org.springframework.stereotype.Service;
 
 @Service("titleService")
 @Component
-public class TitleServiceImpl implements TitleService {
+public class TitleServiceImpl {
 	private static TitleDao titleDao;
 
 	public TitleServiceImpl() {
 		titleDao = new TitleDao();
 	}
 
-	@Override
 	public void persist(TitleEntity entity) {
 		titleDao.persist(entity);
 	}
 
-	@Override
 	public void update(TitleEntity entity) {
 		titleDao.update(entity);
 	}
 
-	@Override
 	public void delete(TitleEntity titleEntity) {
 		titleDao.delete(titleEntity);
 	}
 
-	@Override
 	public TitleDao titleDao() {
 		return titleDao;
 	}
