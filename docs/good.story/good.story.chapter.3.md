@@ -12,24 +12,52 @@ with [Chapter II - The cat that helped Lucy](https://github.com/jesperancinha/wh
 
 ### Recap
 
-Lucy dreamt about her confrontation at the desk by her CEO at `INCO`. After not getting a very good sleep, she goes to the supermarket and by chance finds a long-lost swiss friend of hers called `Ursi Tursi Lursi`.
-Lucy then talks to `Lursi`, and tells him the story of a cat that had a special bond with her and that ended up blowing the whistle on a secret camera that was watching Lucy's every step.
+Lucy dreamt about her confrontation at the desk by her CEO at `INCO`. After not getting a very good sleep, she goes to
+the supermarket and by chance finds a long-lost swiss friend of hers called `Ursi Tursi Lursi`.
+Lucy then talks to `Lursi`, and tells him the story of a cat that had a special bond with her and that ended up blowing
+the whistle on a secret camera that was watching Lucy's every step.
 
 ### Hong Kong Enterprise Surprise
 
-Back in The Netherlands and as Lucy was making strides to climb up the corporate ladder with her extraordinary IT skills and a natural-born ability for business, she hit a goldmine when she was invited to join Red Portal Enterprises BV.
-After a long month of intensive `SCRUM` training, something that Lucy already knew and found useless at that point, she had a meeting with her manager `Toos Boos`. `Toos` called `Lucy` for a meeting:
+Back in The Netherlands and as Lucy was making strides to climb up the corporate ladder with her extraordinary IT skills
+and a natural-born ability for business, she hit a goldmine when she was invited to join Red Portal Enterprises BV.
+After a long month of intensive `SCRUM` training, something that Lucy already knew and found useless at that point, she
+had a meeting with her manager `Toos Boos`. `Toos` called `Lucy` for a meeting:
 
 - Toos Boos - So Lucy please have a seat
 - Lucy - Thank you Sir - Lucy takes a seat.
 - TB - I hear you had a very good training?
 - L - Yes Sir, it was one of the best of my life - says Lucy with a sarcastic tone
 - TB - That is great to hear, but I see that it has come to an end right?
-- L - Yes, we just finished the last lecture today, which is also why I quite wonder what are the next steps for me, in this great company of yours?
+- L - Yes, we just finished the last lecture today, which is also why I quite wonder what are the next steps for me, in
+  this great company of yours?
 - TB - Do you like the far-east Lucy?
-- L - I can't say that I do or that I don't Sir. I just haven't been there yet, but what I have seen in books is quite amazing.
+- L - I can't say that I do or that I don't Sir. I just haven't been there yet, but what I have seen in books is quite
+  amazing.
 - TB - Well, I have the first assignment to you. It's in Hong Kong
+- L - In Hong Kong? That's... a bit unexpected...hmmm
+- TB - Yes, do you have boyfriend or anyone you'd need to see very often?
+- L - Sir, I live alone, South of Utrecht, I don't have much of a family anymore.
+- TB - So I guess working in Hong Kong wouldn't really bother you. I think you'll enjoy it.
+- L - Is this to be in Hong Kong permanently Sir?
+- TB - No (giggles), You'll be working there for two weeks and if you like it we could do something like one week in
+  The Netherlands and two weeks in Hong Kong, or any way you prefer.
+- L - Can I just try for the first month?
+- TB - Sure, I'll arrange your trip details, and you don't have to worry about anything. Just remember to get your
+  Octopus card to get around in the metro in Hong Kong.
+- L - Ok Sir. Thank you for the opportunity.
 
+In Lucy's mind this was actually an amazing opportunity. Finally, some recognition. Finally, the time she was waiting
+for.
+She would get a decent work. She would travel the world, showing off her professional skills wherever she went.
+Boarding a long flight to Hong Kong was also something Lucy didn't do very often, and she really expressed her
+concern about travelling so far abroad. What customs should she be aware of? Should she take vaccines? What was
+different between Hong Kong and Amsterdam?
+The only thing `Red Portal Enterprises BV` manifested was just this idea that Lucy should just relax and board the plane
+and commit to her assignment in Hong Kong. And so Lucy did.
+
+Arriving at Hong Kong International Airport was an amazing feeling for Lucy. A part of Lucy felt that she was just going
+places. Amazing. An assignment in an international city like Hong Kong. 
 ...
 
 [to be continued...]
