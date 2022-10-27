@@ -75,29 +75,14 @@ places. Amazing. An assignment in an international city like Hong Kong.
 This is the music selection that has inspired the above fiction story:
 
 <div align="center">
-      <a title="Freemasons feat Sophie Ellis-Bextor - Heartbreak (Make Me A Dancer) [Music Video]" href="https://www.youtube.com/watch?v=BQ7H0tuOFGY">
+      <a title="Haiifa - Ezzay Ansak Video / هيفا وهبي - ازاي انساك" href="https://www.youtube.com/watch?v=K8utLC4iUZU">
      <img 
-          src="https://img.youtube.com/vi/BQ7H0tuOFGY/0.jpg" 
+          src="https://img.youtube.com/vi/K8utLC4iUZU/0.jpg" 
           style="width:20%;">
       </a>
-      <a title="It Came From the 80's... Vol.5 - A Retro Darkwave Horror Synth Special" href="https://www.youtube.com/watch?v=bnefm57d7z4">
+      <a title="Keine Liebe" href="https://www.youtube.com/watch?v=Nx4mDkWDvDQ">
      <img 
-          src="https://img.youtube.com/vi/bnefm57d7z4/0.jpg" 
-          style="width:20%;">
-      </a>
-      <a title="Freemasons ft. Bailey Tzuke - Uninvited (Official Video HQ)" href="https://www.youtube.com/watch?v=oFBWPcaMKeo">
-     <img 
-          src="https://img.youtube.com/vi/oFBWPcaMKeo/0.jpg" 
-          style="width:20%;">
-      </a>
-      <a title="Arabic House Mix 2012" href="https://www.youtube.com/watch?v=c-cgeKUz_Ks">
-     <img 
-          src="https://img.youtube.com/vi/c-cgeKUz_Ks/0.jpg" 
-          style="width:20%;">
-      </a>
-      <a title="Im Nin'Alu - Ofra Haza" href="https://www.youtube.com/watch?v=ZRnzTTYk7_Q">
-     <img 
-          src="https://img.youtube.com/vi/ZRnzTTYk7_Q/0.jpg" 
+          src="https://img.youtube.com/vi/Nx4mDkWDvDQ/0.jpg" 
           style="width:20%;">
       </a>
 </div>
