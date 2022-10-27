@@ -8,7 +8,7 @@ If you missed it, please start
 with [Chapter II - The cat that helped Lucy](https://github.com/jesperancinha/whiskers-kotlin-native/blob/main/docs/good.story/good.story.chapter.2.md)
 .
 
-## Chapter III - Hong Kong Enterprise Surprise
+## Chapter III - Hong Kong Enterprise Surprise (旺角)
 
 ### Recap
 
@@ -58,6 +58,49 @@ and commit to her assignment in Hong Kong. And so Lucy did.
 
 Arriving at Hong Kong International Airport was an amazing feeling for Lucy. A part of Lucy felt that she was just going
 places. Amazing. An assignment in an international city like Hong Kong. 
+
+Upon arrival, Hong Kong international airport did not seem to be much different from other airports. Lucy simply waited a few minutes to get her luggage in the rotating belt.
+As Lucy was passing through customs, two officers noticed that she was walking alone with a big suitcase. Lucy was immediately called to the customs search room for a routine check:
+
+- Officer 1 - What is your name?
+- Lucy - My name is Lucy, and I'm here in HK for a business trip.
+- O1 - Mss Lucy, please let me be the one asking questions. Can I see your business card please?
+- L - You mean my ID card ?
+- O1 - That is also necessary.
+- L - Ok... this my ID card which you can see it says that I come from The Netherlands, and I don't have a business card.
+
+Officer 1 looks at Officer 2 and both of them begin to stare in suspicion to Lucy and her suitcase:
+
+- Officer 2 - I need to open you suitcase
+- L - Got right ahead
+- O1 - Mss Lucy, do you have any kind of official documents that corroborate the fact that you are in HK for business ?
+
+Lucy's blood pressure instantly dropped. Lucy didn't print any official documents regarding the trip. Actually Red Portal Enterprises didn't gave her any indication or any official document to use in this circumstance.
+It seemed as if customs was very strict and Lucy didn't had enough to back her story. As the officers continued searching in her briefcase, opening bottles and checking the contents of everything she brought, Lucy reminded herself to check her email but first to give a call to Toos Boos.
+
+- Lucy - Sir, I think if I call my manager, he'd be able to explain to you better than I...
+- O1 - Sorry to interrupt you Mss Lucy, but whoever you call now, I also need documents to be able to assess the purpose of your visit. However, while we search your briefcase, you may call him if you think that might help you.
+- L - Thank you!
+
+As Lucy kept calling Toos Boos, he didn't pick up the phone. He didn't even have a voice mail. As the offices in Amsterdam were closed, Lucy realised that she was alone right now. There was no welcome committee, no calls to check if the trip went well, nothing. And the officers needed to assess Lucy's purpose of her visit:
+
+- Lucy - My manager is not picking up the call, would it be enough if I show you the HR email from my company with all the details and goals of this trip?
+- O2 - I'll check with my supervisor. One moment.
+
+It was another tense moment. Lucy had to wait
+
+- Supervisor - Hello Mrs Lucy. I believe you wanted to show me an email?
+- Lucy - Yes, here it is. This is the description of the trip and the purpose of it.
+- S - Higher Grounds Banking huh? Very nice, I actually know them and I have also seen colleagues of yours coming here through customs.
+- L - Really?
+- S - Yes, your company is very clumsy and I understand your situation... And you are lucky that I do so.
+- L - What do you mean ?
+- S - Mrs. Lucy, when people come to Hong Kong, especially in international flights they need to provide a clear justification for their stay and especially if they are travelling alone as you do. Your company didn't tell you this?
+- L - Nobody briefed me about this. I've travelled before to other places in the world and I honestly speaking did not expected this and I'm sorry about it.
+- S - It's not a problem. You can go. I can see my colleagues just finished inspection your suitcase. I also see your email and I see that you are on an assignment to Higher Grounds Banking via Red Portal Enterprises, but please tell your company that this is being noted and that there may come a point where we will not allow entry under these circumstances.
+- L - I will Sir, thank you.
+- S - Welcome to Hong Kong and I wish you a pleasant stay and success with your project.
+
 ...
 
 [to be continued...]
@@ -69,6 +112,9 @@ places. Amazing. An assignment in an international city like Hong Kong.
 - Sneller Brass - CTO of `Max Maxx BV`
 - Platte Jouken - CEO of `Red portal enterprises B.V.`
 - Ursi Tursi Lursi - A swiss friend of Lucy
+- Picanica Sorogoya - Manager of Higher Grounds Banking Hong Kong
+- Customs-officers - The officers that almost blocked Lucy
+- Nuan Cheung (娜 張) - The hotel recepcionist
 
 ### Inspiring music
 
