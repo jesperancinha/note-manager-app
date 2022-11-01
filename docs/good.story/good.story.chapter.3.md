@@ -57,17 +57,20 @@ The only thing `Red Portal Enterprises BV` manifested was just this idea that Lu
 and commit to her assignment in Hong Kong. And so Lucy did.
 
 Arriving at Hong Kong International Airport was an amazing feeling for Lucy. A part of Lucy felt that she was just going
-places. Amazing. An assignment in an international city like Hong Kong. 
+places. Amazing. An assignment in an international city like Hong Kong.
 
-Upon arrival, Hong Kong international airport did not seem to be much different from other airports. Lucy simply waited a few minutes to get her luggage in the rotating belt.
-As Lucy was passing through customs, two officers noticed that she was walking alone with a big suitcase. Lucy was immediately called to the customs search room for a routine check:
+Upon arrival, Hong Kong international airport did not seem to be much different from other airports. Lucy simply waited
+a few minutes to get her luggage in the rotating belt.
+As Lucy was passing through customs, two officers noticed that she was walking alone with a big suitcase. Lucy was
+immediately called to the customs search room for a routine check:
 
 - Officer 1 - What is your name?
 - Lucy - My name is Lucy, and I'm here in HK for a business trip.
 - O1 - Mss Lucy, please let me be the one asking questions. Can I see your business card please?
 - L - You mean my ID card ?
 - O1 - That is also necessary.
-- L - Ok... this my ID card which you can see it says that I come from The Netherlands, and I don't have a business card.
+- L - Ok... this my ID card which you can see it says that I come from The Netherlands, and I don't have a business
+  card.
 
 Officer 1 looks at Officer 2 and both of them begin to stare in suspicion to Lucy and her suitcase:
 
@@ -75,31 +78,91 @@ Officer 1 looks at Officer 2 and both of them begin to stare in suspicion to Luc
 - L - Got right ahead
 - O1 - Mss Lucy, do you have any kind of official documents that corroborate the fact that you are in HK for business ?
 
-Lucy's blood pressure instantly dropped. Lucy didn't print any official documents regarding the trip. Actually Red Portal Enterprises didn't gave her any indication or any official document to use in this circumstance.
-It seemed as if customs was very strict and Lucy didn't had enough to back her story. As the officers continued searching in her briefcase, opening bottles and checking the contents of everything she brought, Lucy reminded herself to check her email but first to give a call to Toos Boos.
+Lucy's blood pressure instantly dropped. Lucy didn't print any official documents regarding the trip. Actually Red
+Portal Enterprises didn't gave her any indication or any official document to use in this circumstance.
+It seemed as if customs was very strict and Lucy didn't had enough to back her story. As the officers continued
+searching in her briefcase, opening bottles and checking the contents of everything she brought, Lucy reminded herself
+to check her email but first to give a call to Toos Boos.
 
 - Lucy - Sir, I think if I call my manager, he'd be able to explain to you better than I...
-- O1 - Sorry to interrupt you Mss Lucy, but whoever you call now, I also need documents to be able to assess the purpose of your visit. However, while we search your briefcase, you may call him if you think that might help you.
+- O1 - Sorry to interrupt you Mss Lucy, but whoever you call now, I also need documents to be able to assess the purpose
+  of your visit. However, while we search your briefcase, you may call him if you think that might help you.
 - L - Thank you!
 
-As Lucy kept calling Toos Boos, he didn't pick up the phone. He didn't even have a voice mail. As the offices in Amsterdam were closed, Lucy realised that she was alone right now. There was no welcome committee, no calls to check if the trip went well, nothing. And the officers needed to assess Lucy's purpose of her visit:
+As Lucy kept calling Toos Boos, he didn't pick up the phone. He didn't even have a voice mail. As the offices in
+Amsterdam were closed, Lucy realised that she was alone right now. There was no welcome committee, no calls to check if
+the trip went well, nothing. And the officers needed to assess Lucy's purpose of her visit:
 
-- Lucy - My manager is not picking up the call, would it be enough if I show you the HR email from my company with all the details and goals of this trip?
+- Lucy - My manager is not picking up the call, would it be enough if I show you the HR email from my company with all
+  the details and goals of this trip?
 - O2 - I'll check with my supervisor. One moment.
 
 It was another tense moment. Lucy had to wait
 
 - Supervisor - Hello Mrs Lucy. I believe you wanted to show me an email?
 - Lucy - Yes, here it is. This is the description of the trip and the purpose of it.
-- S - Higher Grounds Banking huh? Very nice, I actually know them and I have also seen colleagues of yours coming here through customs.
+- S - Higher Grounds Banking huh? Very nice, I actually know them and I have also seen colleagues of yours coming here
+  through customs.
 - L - Really?
 - S - Yes, your company is very clumsy and I understand your situation... And you are lucky that I do so.
 - L - What do you mean ?
-- S - Mrs. Lucy, when people come to Hong Kong, especially in international flights they need to provide a clear justification for their stay and especially if they are travelling alone as you do. Your company didn't tell you this?
-- L - Nobody briefed me about this. I've travelled before to other places in the world and I honestly speaking did not expected this and I'm sorry about it.
-- S - It's not a problem. You can go. I can see my colleagues just finished inspection your suitcase. I also see your email and I see that you are on an assignment to Higher Grounds Banking via Red Portal Enterprises, but please tell your company that this is being noted and that there may come a point where we will not allow entry under these circumstances.
+- S - Mrs. Lucy, when people come to Hong Kong, especially in international flights they need to provide a clear
+  justification for their stay and especially if they are travelling alone as you do. Your company didn't tell you this?
+- L - Nobody briefed me about this. I've travelled before to other places in the world and I honestly speaking did not
+  expected this and I'm sorry about it.
+- S - It's not a problem. You can go. I can see my colleagues just finished inspection your suitcase. I also see your
+  email and I see that you are on an assignment to Higher Grounds Banking via Red Portal Enterprises, but please tell
+  your company that this is being noted and that there may come a point where we will not allow entry under these
+  circumstances.
 - L - I will Sir, thank you.
-- S - Welcome to Hong Kong and I wish you a pleasant stay and success with your project.
+- S - Welcome to Hong Kong Miss Lucy and I wish you a pleasant stay and success with your project.
+
+As Lucy stepped out of customs, she crossed through the arrivals hall and just by the underground entrance was the
+machine issuing the Octopus tickets.
+This was the Lucy had to get around in Hong-Kong and told to her by Toos Boos. So Lucy head straight to Mong-Kok, which
+is the neighborhood in Hong Kong where the hotel was booked.
+The trip wasn't the most assuring one because while the metro was going through, Lucy kept thinking on what just
+happened. In office everyone tod her that all of her concerns regarding travelling to Hong Kong made no sense. She would
+get an automatic tourist visa and since she wasn't staying for long it would be important to make any extra
+arrangements. However none of this was true on arrival and the fact that Toos Boos or anyone in the office back in
+Amsterdam still wasn't picking up the calls, felt strange and quite bizarre. There were also still no updates on what to
+do the next morning.
+
+--- `Keine Liebe` ---
+
+Lucy's Hotel was a 3-star hotel located in Yau-Ma-Tei at the edge of the Mong-Kok Neighbourhood. For such a big company
+like Red Portal Enteprises BV, it felt a bit awkward for Lucy to have to stay in a 3-star hotel. Coming out of the metro
+gave Lucy a first glimpse of the busy and colorful downtown Hong-Kong. The enormous sky-scrappers, the neon-lights, the
+busy
+traffic, the known fast-food restaurants, the pâtisseries, everything, almost everything gave it a sort of New York vibe
+to it. There were merchants selling fried food on the street and the restaurants offered a lot a pretty affordable
+meals. As Lucy stepped in the hotel she felt a feeling of enormous relief. It was evening already and the trip was
+really long and she was exhausted:
+
+- Lucy: Good evening, I have a reserved room on my name provided by my company Red Portal Enterprises BV and I would
+  like to check in
+- Nuan Cheung: Good evening. I am Nuan Cheung and I will help you this evening. Under what name is your room reserved?
+- L: Under my name I believe. It's Lucy Dalia.
+- NC: I see, just one moment pease - Nuan Cheung checks all the clients' data - Yes, I see, you have made a reservation,
+  that will be 10000 euros please.
+- L: Oh I'm sorry - says Lucy with a hopeful smile - My company already paid for the room.
+- NC: Let me check again ... Yeas, they reserved, but they explicitly did not pay for the room. I'm really but if you
+  still want your room, you need to provide me either your company's business card or your own credit card. We don't
+  accept debit Miss Dalia.
+- L: Wait, there must have been a mistake. I'm sure my company paid for the room. Let me call my boss.
+
+Lucy had already a feeling that Toos Boos or anyone else in the company wouldn't pick up the phone.
+
+- L: No one is picking up the phone...
+- NC: I see. Miss Lucy, I can't give you a room, but if you'd like you can sleep in the guest room and maybe in the
+  morning you can call your company and resolve this issue.
+- L: Let me see if I can ask for emergency credit.
+
+Lucy had by sheer luck, her credit in such a way, that she was able to top up her credit line up to 10000 euros via
+internet and one call to the bank.
+Once the bank had loaned her 10000 euros, Lucy was finally able to get a room. Finally, after a very very long trip with
+2 incidents and no calls from her own company, Lucy was able to finally try to get some rest.
+Of course, the lack of contact with her own company didn't help and she dreamed about it:
 
 ...
 
