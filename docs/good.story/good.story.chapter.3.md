@@ -1,8 +1,7 @@
 # Good Story by João Esperancinha TL;DR
 
-NOTE: The story at the bottom does not describe an actual occurrence, but it is inspired by personal events. All
-characters described can be metaphors to real people and real events. In spite of this being inspired by true events,
-the story itself is pure fiction.
+NOTE: The story at the bottom does not describe actual real events, but it is inspired by personal experiences. All
+characters described are fictional characters. The story itself is also pure fiction.
 
 If you missed it, please start
 with [Chapter II - The cat that helped Lucy](https://github.com/jesperancinha/whiskers-kotlin-native/blob/main/docs/good.story/good.story.chapter.2.md)
