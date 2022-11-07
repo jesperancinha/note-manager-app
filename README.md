@@ -78,6 +78,10 @@ This application is using JETTY in the Maven POM files. (NOTE: It was already be
 NOTE: The extra folder for notemanagercol is part of Solr configuration.
 This is used for elastic search purposes
 ```
+## References
+
+https://www.youtube.com/watch?v=yoLh4sd1CWI
+
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
