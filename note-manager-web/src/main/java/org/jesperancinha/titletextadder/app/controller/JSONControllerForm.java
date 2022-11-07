@@ -24,11 +24,14 @@ import java.util.Objects;
 @Component
 public class JSONControllerForm {
 
-    @Autowired
-    private URI noteManagerApiUrlAdd;
+    private final URI noteManagerApiUrlAdd;
 
-    @Autowired
-    private URI noteManagerApiUrlList;
+    private final URI noteManagerApiUrlList;
+
+    public JSONControllerForm(URI noteManagerApiUrlAdd, URI noteManagerApiUrlList) {
+        this.noteManagerApiUrlAdd = noteManagerApiUrlAdd;
+        this.noteManagerApiUrlList = noteManagerApiUrlList;
+    }
 
     @RequestMapping(value = "/AddsTitle.htm", method = RequestMethod.GET)
     public String showForm() {
