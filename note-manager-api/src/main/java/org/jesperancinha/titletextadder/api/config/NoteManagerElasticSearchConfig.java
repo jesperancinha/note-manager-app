@@ -1,5 +1,6 @@
 package org.jesperancinha.titletextadder.api.config;
 
+import org.apache.solr.client.solrj.impl.Http2SolrClient;
 import org.jesperancinha.titletextadder.api.solr.SolrJSearcherImpl;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,8 +17,8 @@ public class NoteManagerElasticSearchConfig {
     private String solrUrl;
 
     @Bean
-    public HttpSolrClient solr() {
-        return new HttpSolrClient.Builder().withBaseSolrUrl(solrUrl).build();
+    public Http2SolrClient solr() {
+        return new Http2SolrClient.Builder(solrUrl).build();
     }
 
     @Bean
