@@ -34,7 +34,7 @@
                 <version>1.12.1</version>
 
                 <configuration>
-                    <nodeVersion>v16.13.1</nodeVersion>
+                    <nodeVersion>v19.1.0</nodeVersion>
                     <npmVersion>8.1.2</npmVersion>
                     <installDirectory>target</installDirectory>
                     <nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>

@@ -17,6 +17,6 @@ docker-clean: stop
 	docker-compose down -v
 	docker-compose rm -svf
 dcd: docker-clean
-	docker-compose -f docker-compose.yml -f docker-compose.override.yml down
+	docker-compose -p ${GITHUB_RUN_ID} -f docker-compose.yml -f docker-compose.override.yml down
 dcup-light: dcd
 	docker-compose -p ${GITHUB_RUN_ID} up -d red-portal-db
