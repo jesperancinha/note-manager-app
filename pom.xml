@@ -29,7 +29,6 @@
 	<modules>
 		<module>note-manager-api</module>
 		<module>note-manager-web</module>
-		<module>note-manager-queue</module>
 	</modules>
 
 	<build>
