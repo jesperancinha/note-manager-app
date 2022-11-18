@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 @Service("titleService")
 @Component
 public class TitleServiceImpl {
-	private static TitleDao titleDao;
+	private final TitleDao titleDao;
 
-	public TitleServiceImpl() {
-		titleDao = new TitleDao();
+	public TitleServiceImpl(TitleDao titleDao) {
+		this.titleDao = titleDao;
 	}
 
 	public void persist(TitleEntity entity) {
