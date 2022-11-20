@@ -163,6 +163,27 @@ Once the bank had loaned her 10000 euros, Lucy was finally able to get a room. F
 2 incidents and no calls from her own company, Lucy was able to finally try to get some rest.
 Of course, the lack of contact with her own company didn't help and she dreamed about it:
 
+--- `Lucy's Dream` ---
+
+Lucy found herself in a dark place which looked to be an empty hall with a very dim light. In the distance she saw the
+shade of what looked like to be a man in a black garment. But it was not visible what he wore.
+The shadow approached Lucy and introduced itself to her:
+
+Shadow: Welcome to my home Lucy.
+Lucy: Do I know you?
+Shadow: You know me for a lifetime. I go by several names.
+Lucy: I don't understand. But maybe if you tell me one of your names, then I'll be able to understand what is happening
+now.
+Shadow: I'm Asmo, but let's not talk about me. Take a look to your right, what do you see?
+Lucy: I see a trash can. I don't understand.
+Asmo: And now?
+Lucy: You've just painted it white! What does that mean?
+Asmo: You'll know all about it soon Lucy. Be brave and don't fall into my traps...
+Lucy: What?!?
+
+After the last word given by Asmo, the shadow dissolved into thin air and Lucy wakes up around 7AM. It was time to figure
+out what had happened in the meantime.
+
 ...
 
 [to be continued...]
