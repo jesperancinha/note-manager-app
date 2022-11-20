@@ -3,7 +3,6 @@ package org.jesperancinha.manager.note
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import manager.note.jesperancinha.org.plugins.*
 import org.jesperancinha.manager.note.plugins.*
 
 fun main() {
