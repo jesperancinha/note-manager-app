@@ -1,4 +1,4 @@
-package manager.note.jesperancinha.org
+package org.jesperancinha.manager.note
 
 import io.ktor.server.routing.*
 import io.ktor.http.*
@@ -26,6 +26,7 @@ import io.ktor.client.statement.*
 import kotlin.test.*
 import io.ktor.server.testing.*
 import manager.note.jesperancinha.org.plugins.*
+import org.jesperancinha.manager.note.plugins.configureRouting
 
 class ApplicationTest {
     @Test

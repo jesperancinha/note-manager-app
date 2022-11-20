@@ -1,4 +1,4 @@
-package manager.note.jesperancinha.org.plugins
+package org.jesperancinha.manager.note.plugins
 
 import io.ktor.server.engine.*
 import io.ktor.server.application.*

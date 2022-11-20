@@ -1,4 +1,4 @@
-package manager.note.jesperancinha.org.plugins
+package org.jesperancinha.manager.note.plugins
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.plugins.contentnegotiation.*
