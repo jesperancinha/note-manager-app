@@ -40,6 +40,10 @@ examples of how this all pans out.
 - [Building applications with Kotlin and Arrow.kt in style](https://www.youtube.com/watch?v=g79A6HmbW5M)
 - [KotlinConf 2018 - Coroutines and Reactive Programming - Friends or Foes? by Konrad Kamiński](https://www.youtube.com/watch?v=yoLh4sd1CWI)
 
+#### Online
+
+- [How to Build Real-Time Notification Service Using Server-Sent Events (SSE)](https://grapeup.com/blog/how-to-build-real-time-notification-service-using-server-sent-events-sse/#)
+
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
