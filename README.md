@@ -23,11 +23,17 @@
 
 ## Introduction
 
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧 !!! [Under construction...](https://github.com/jesperancinha/project-signer/blob/master/project-signer-templates/UnderConstruction.md) !!! 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧 !!! [Under construction...](https://github.com/jesperancinha/project-signer/blob/master/project-signer-templates/UnderConstruction.md) !!!
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
+A note manager application that implements a search engine for story telling texts. It feeds a UI and the idea is to
+show how can we, with [Arrow](https://arrow-kt.io/), use its benefits to create a more robust, resilient, back-pressure resistent, innovative
+application with support for high capacity and high availability.
+
+This investigation will use [Chapter III - Hong Kong Enterprise Surprise](./docs/good.story) of my novel, to see
+examples of how this all pans out.
 
 ## References
-
 
 #### Videos
 
