@@ -58,6 +58,21 @@
             <version>1.1.4-alpha.15</version>
         </dependency>
         <dependency>
+            <groupId>io.arrow-kt</groupId>
+            <artifactId>suspendapp-jvm</artifactId>
+            <version>0.3.2-alpha.7</version>
+        </dependency>
+        <dependency>
+            <groupId>io.arrow-kt</groupId>
+            <artifactId>arrow-fx-coroutines-jvm</artifactId>
+            <version>1.1.4-alpha.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ktorm</groupId>
+            <artifactId>ktorm-core</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+        <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
             <version>${prometeus_version}</version>
