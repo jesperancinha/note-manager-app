@@ -60,7 +60,7 @@
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>suspendapp-jvm</artifactId>
-            <version>0.3.2-alpha.9</version>
+            <version>0.3.2-alpha.11</version>
         </dependency>
         <dependency>
             <groupId>io.arrow-kt</groupId>
