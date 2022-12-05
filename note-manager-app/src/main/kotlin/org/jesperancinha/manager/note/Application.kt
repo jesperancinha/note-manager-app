@@ -9,6 +9,7 @@ import io.ktor.server.netty.*
 import kotlinx.coroutines.awaitCancellation
 import org.jesperancinha.manager.note.config.HostConfiguration
 import org.jesperancinha.manager.note.dao.StoryDao
+import org.jesperancinha.manager.note.dao.WordDao
 import org.jesperancinha.manager.note.plugins.*
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
@@ -34,25 +35,18 @@ fun <Engine : ApplicationEngine, Configuration : ApplicationEngine.Configuration
         embeddedServer(factory, host = host, port = port, configure = configure) {
         }.apply { start() }
     }, { engine, _ ->
-        engine.environment.log.info("Shutting down HTTP server...")
+        engine.environment.log.info("Shutting down Ktor server...")
         engine.stop(gracePeriodMillis.inWholeMilliseconds, timeoutMillis.inWholeMilliseconds)
-        engine.environment.log.info("HTTP server shutdown!")
+        engine.environment.log.info("Ktor server shutdown!")
     })
 
-
-//{
-//    embeddedServer(Netty, port = 8080, host = "0.0.0.0", module = Application::module)
-//        .start(wait = true)
-//}
-
 data class Dependencies(
-    val storyService: StoryDao
+    val storyService: StoryDao?,
+    val wordDao: WordDao?
 )
 
 fun dependencies(): Resource<Dependencies> = resource {
-    Dependencies(
-        StoryDao(),
-    )
+    Dependencies(null, null)
 }
 
 

@@ -13,7 +13,7 @@ class ApplicationTest {
     @Test
     fun testRoot() = testApplication {
         application {
-            configureRouting(StoryDao())
+            configureRouting(object : StoryDao {})
         }
         client.get("/").apply {
             assertEquals(HttpStatusCode.OK, status)
