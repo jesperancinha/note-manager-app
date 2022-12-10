@@ -10,18 +10,6 @@
     <artifactId>note-manager-app</artifactId>
     <name>Note Manager :: App :: KTOR Service</name>
     <description>note-manager-app</description>
-    <properties>
-        <ktor_version>2.2.1</ktor_version>
-        <kotlin.code.style>official</kotlin.code.style>
-        <logback_version>1.4.5</logback_version>
-        <prometeus_version>1.10.2</prometeus_version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
-        <main.class>manager.note.jesperancinha.org.ApplicationKt</main.class>
-        <exposed.version>0.41.1</exposed.version>
-    </properties>
-    <repositories>
-    </repositories>
     <dependencies>
         <dependency>
             <groupId>io.ktor</groupId>
@@ -133,7 +121,7 @@
         <dependency>
             <groupId>org.jetbrains.kotlinx</groupId>
             <artifactId>kotlinx-coroutines-debug</artifactId>
-            <version>1.6.4</version>
+            <version>${kotlinx-coroutines-debug.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
