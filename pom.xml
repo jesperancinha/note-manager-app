@@ -8,14 +8,14 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<name>Note Manager :: POM :: Parent</name>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<kotlin.version>1.7.22</kotlin.version>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 		<maven.compiler.plugin.target>${java.version}</maven.compiler.plugin.target>
 		<maven.compiler.plugin.source>${java.version}</maven.compiler.plugin.source>
 		<maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
 		<maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
+		<kotlin.version>1.7.21</kotlin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring.version>6.0.0</spring.version>
 		<jackson.version>1.9.13</jackson.version>
 		<jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
@@ -26,7 +26,7 @@
 		<logback_version>1.4.5</logback_version>
 		<prometeus_version>1.10.2</prometeus_version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<kotlin.compiler.incremental>true</kotlin.compiler.incremental>
+<!--		<kotlin.compiler.incremental>true</kotlin.compiler.incremental>-->
 		<main.class>manager.note.jesperancinha.org.ApplicationKt</main.class>
 		<exposed.version>0.41.1</exposed.version>
 		<kotlinx-coroutines-debug.version>1.6.4</kotlinx-coroutines-debug.version>
