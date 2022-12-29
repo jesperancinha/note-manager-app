@@ -55,7 +55,7 @@
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>arrow-fx-coroutines-jvm</artifactId>
-            <version>1.1.4-rc.3</version>
+            <version>1.1.5-alpha.1</version>
         </dependency>
         <dependency>
             <groupId>org.ktorm</groupId>
