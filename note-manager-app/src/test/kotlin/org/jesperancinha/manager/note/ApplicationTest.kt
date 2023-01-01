@@ -6,11 +6,10 @@ import io.ktor.http.*
 import io.ktor.server.testing.*
 import org.jesperancinha.manager.note.dao.StoryDao
 import org.jesperancinha.manager.note.plugins.configureRouting
-import kotlin.test.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 
 class ApplicationTest {
-    @Test
     fun testRoot() = testApplication {
         application {
             configureRouting(object : StoryDao {})

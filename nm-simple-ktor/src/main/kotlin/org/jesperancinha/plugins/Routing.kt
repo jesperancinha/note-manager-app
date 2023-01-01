@@ -1,11 +1,13 @@
-package org.jesperancinha.manager.note.plugins
+package org.jesperancinha.plugins
 
 import io.ktor.server.routing.*
+import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
-import org.jesperancinha.manager.note.dao.StoryDao
+import io.ktor.server.request.*
 
-fun Application.configureRouting(storyDao: StoryDao? = null) {
+fun Application.configureRouting() {
+
     routing {
         get("/") {
             call.respondText("Hello World!")

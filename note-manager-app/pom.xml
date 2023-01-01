@@ -11,6 +11,10 @@
     <name>Note Manager :: App :: KTOR Service</name>
     <description>note-manager-app</description>
 
+    <properties>
+        <main.class>org.jesperancinha.manager.note.ApplicationKt</main.class>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>io.ktor</groupId>
@@ -45,22 +49,22 @@
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>arrow-core-jvm</artifactId>
-            <version>1.1.5-alpha.1</version>
+            <version>${arrow.version}</version>
         </dependency>
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>suspendapp-jvm</artifactId>
-            <version>0.3.2-alpha.14</version>
+            <version>${suspendapp-jvm.version}</version>
         </dependency>
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>arrow-fx-coroutines-jvm</artifactId>
-            <version>1.1.5-alpha.1</version>
+            <version>${arrow.version}</version>
         </dependency>
         <dependency>
             <groupId>org.ktorm</groupId>
             <artifactId>ktorm-core</artifactId>
-            <version>3.5.0</version>
+            <version>${ktorm-core.version}</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
@@ -179,17 +183,17 @@
                         <artifactId>arrow-optics-ksp-plugin</artifactId>
                         <version>${arrow.version}</version>
                     </dependency>
-<!--                    <dependency>-->
-<!--                        <groupId>org.jetbrains.kotlin</groupId>-->
-<!--                        <artifactId>kotlin-maven-serialization</artifactId>-->
-<!--                        <version>${kotlin.version}</version>-->
-<!--                    </dependency>-->
+                    <!--                    <dependency>-->
+                    <!--                        <groupId>org.jetbrains.kotlin</groupId>-->
+                    <!--                        <artifactId>kotlin-maven-serialization</artifactId>-->
+                    <!--                        <version>${kotlin.version}</version>-->
+                    <!--                    </dependency>-->
                 </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>${exec-maven-plugin.version}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -204,7 +208,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.4.2</version>
+                <version>${maven-assembly-plugin.version}</version>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>

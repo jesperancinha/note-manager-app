@@ -3,6 +3,7 @@ package org.jesperancinha.manager.note
 import arrow.continuations.SuspendApp
 import arrow.fx.coroutines.Resource
 import arrow.fx.coroutines.continuations.resource
+import io.ktor.client.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -49,7 +50,10 @@ fun dependencies(): Resource<Dependencies> = resource {
     Dependencies(null, null)
 }
 
-
+@Suppress("unused") // application.conf references the main function. This annotation prevents the IDE from marking it as unused.
+fun Application.module() {
+    configureRouting()
+}
 fun Application.app(module: Dependencies) {
 //    configureSecurity()
     configureHTTP()
