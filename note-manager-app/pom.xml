@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.jesperancinha.notemanager</groupId>
-        <artifactId>note-manager</artifactId>
+        <artifactId>note-manager-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>note-manager-app</artifactId>
@@ -153,6 +153,7 @@
                         <compilerPlugin>ksp</compilerPlugin>
                     </compilerPlugins>
                     <jvmTarget>${java.version}</jvmTarget>
+                    <languageVersion>${kotlin-maven-plugin.languageVersion}</languageVersion>
                 </configuration>
                 <dependencies>
                     <dependency>
