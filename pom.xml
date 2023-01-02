@@ -23,7 +23,7 @@
         <ktor_version>2.2.1</ktor_version>
         <kotlin.code.style>official</kotlin.code.style>
         <kotlin-stdlib.version>1.8.0-RC</kotlin-stdlib.version>
-        <kotlin_version>${kotlin-stdlib.version}</kotlin_version>
+        <kotlin_version>1.8.0</kotlin_version>
         <kotlin-maven-plugin.languageVersion>1.8</kotlin-maven-plugin.languageVersion>
 
         <jackson.version>1.9.13</jackson.version>
