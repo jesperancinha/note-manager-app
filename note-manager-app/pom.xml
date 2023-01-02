@@ -39,94 +39,76 @@
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-metrics-jvm</artifactId>
-            <version>${ktor_version}</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-metrics-micrometer-jvm</artifactId>
-            <version>${ktor_version}</version>
         </dependency>
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>arrow-core-jvm</artifactId>
-            <version>${arrow.version}</version>
         </dependency>
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>suspendapp-jvm</artifactId>
-            <version>${suspendapp-jvm.version}</version>
         </dependency>
         <dependency>
             <groupId>io.arrow-kt</groupId>
             <artifactId>arrow-fx-coroutines-jvm</artifactId>
-            <version>${arrow.version}</version>
         </dependency>
         <dependency>
             <groupId>org.ktorm</groupId>
             <artifactId>ktorm-core</artifactId>
-            <version>${ktorm-core.version}</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
-            <version>${prometeus_version}</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-content-negotiation-jvm</artifactId>
-            <version>${ktor_version}</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-serialization-kotlinx-json-jvm</artifactId>
-            <version>${ktor_version}</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-websockets-jvm</artifactId>
-            <version>${ktor_version}</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-netty-jvm</artifactId>
-            <version>${ktor_version}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>${logback_version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.exposed</groupId>
             <artifactId>exposed-core</artifactId>
-            <version>${exposed.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.exposed</groupId>
             <artifactId>exposed-dao</artifactId>
-            <version>${exposed.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.exposed</groupId>
             <artifactId>exposed-jdbc</artifactId>
-            <version>${exposed.version}</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-tests-jvm</artifactId>
-            <version>${ktor_version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-test-junit</artifactId>
-            <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlinx</groupId>
             <artifactId>kotlinx-coroutines-debug</artifactId>
-            <version>${kotlinx-coroutines-debug.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
