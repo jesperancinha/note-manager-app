@@ -11,11 +11,6 @@ with [Chapter II - The cat that helped Lucy](https://github.com/jesperancinha/wh
 
 ### Recap
 
-Lucy dreamt about her confrontation at the desk by her CEO at `INCO`. After not getting a very good sleep, she goes to
-the supermarket and by chance finds a long-lost swiss friend of hers called `Ursi Tursi Lursi`.
-Lucy then talks to `Lursi`, and tells him the story of a cat that had a special bond with her and that ended up blowing
-the whistle on a secret camera that was watching Lucy's every step.
-
 ### Hong Kong Enterprise Surprise
 
 Back in The Netherlands and as Lucy was making strides to climb up the corporate ladder with her extraordinary IT skills
