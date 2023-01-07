@@ -198,5 +198,4 @@ out what had happened in the meantime.
 - Mrs. Rose - An all crafts professional woman with a keen eye for people 
 - Picanica Sorogoya - Manager of Higher Grounds Banking Hong Kong
 - Customs-officers - The officers that almost blocked Lucy
-- Nuan Cheung (娜 張) - The hotel recepcionist
-
+- Nuan Cheung (娜 張) - The hotel receptionist
