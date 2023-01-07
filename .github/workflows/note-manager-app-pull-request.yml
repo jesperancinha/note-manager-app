@@ -1,4 +1,4 @@
-name: note-manager-app-pull-request
+name: NMA Pull Request
 
 on:
   pull_request:

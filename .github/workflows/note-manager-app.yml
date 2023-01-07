@@ -1,4 +1,4 @@
-name: note-manager-app
+name: NMA Build
 
 on:
   push:
