@@ -190,28 +190,13 @@ out what had happened in the meantime.
 
 ### Characters
 
-- Fenestev Moon - CEO of `Infrastructure Collective Zaphire BV`
+- Fenestev Moon - CEO of `MFMF BV`
 - Hara Arre - Chapter Lead of `Blue Round Grachten Roses Dot Com BV`
 - Sneller Brass - CTO of `Max Maxx BV`
 - Platte Jouken - CEO of `Red portal enterprises B.V.`
-- Ursi Tursi Lursi - A swiss friend of Lucy
+- Lars Pereira - A norwegian friend of Lucy
+- Mrs. Rose - An all crafts professional woman with a keen eye for people 
 - Picanica Sorogoya - Manager of Higher Grounds Banking Hong Kong
 - Customs-officers - The officers that almost blocked Lucy
 - Nuan Cheung (娜 張) - The hotel recepcionist
 
-### Inspiring music
-
-This is the music selection that has inspired the above fiction story:
-
-<div align="center">
-      <a title="Haiifa - Ezzay Ansak Video / هيفا وهبي - ازاي انساك" href="https://www.youtube.com/watch?v=K8utLC4iUZU">
-     <img 
-          src="https://img.youtube.com/vi/K8utLC4iUZU/0.jpg" 
-          style="width:20%;">
-      </a>
-      <a title="Keine Liebe" href="https://www.youtube.com/watch?v=Nx4mDkWDvDQ">
-     <img 
-          src="https://img.youtube.com/vi/Nx4mDkWDvDQ/0.jpg" 
-          style="width:20%;">
-      </a>
-</div>
