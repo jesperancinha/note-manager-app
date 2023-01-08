@@ -6,12 +6,12 @@ This is a test app to see how Ktor works and how we can create endpoints and rou
 
 Current endpoints:
 
-- [http://localhost:8080](http://localhost:8080)
-- [http://localhost:8080/news](http://localhost:8080/news)
-- [http://localhost:8080/messages](http://localhost:8080/messages)
-- [http://localhost:8080/messages/0](http://localhost:8080/messages/0)
-- [http://localhost:8080/messages/1](http://localhost:8080/messages/1)
-- [Main Page: http://localhost:8080/main](http://localhost:8080/main)
+-   [http://localhost:8080](http://localhost:8080)
+-   [http://localhost:8080/news](http://localhost:8080/news)
+-   [http://localhost:8080/messages](http://localhost:8080/messages)
+-   [http://localhost:8080/messages/0](http://localhost:8080/messages/0)
+-   [http://localhost:8080/messages/1](http://localhost:8080/messages/1)
+-   [Main Page: http://localhost:8080/main](http://localhost:8080/main)
 
 ## References
 
