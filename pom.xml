@@ -25,7 +25,7 @@
         <kotlin.code.style>official</kotlin.code.style>
 
         <jackson.version>1.9.13</jackson.version>
-        <arrow.version>1.1.5-alpha.4</arrow.version>
+        <arrow.version>1.1.5-rc.1</arrow.version>
         <logback_version>1.4.5</logback_version>
         <prometeus_version>1.10.3</prometeus_version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
