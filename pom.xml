@@ -31,7 +31,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <exposed.version>0.41.1</exposed.version>
         <exec-maven-plugin.version>3.1.0</exec-maven-plugin.version>
-        <suspendapp-jvm.version>0.4.0-rc.1</suspendapp-jvm.version>
+        <suspendapp-jvm.version>0.4.0</suspendapp-jvm.version>
         <ktorm-core.version>3.5.0</ktorm-core.version>
         <logback_version>1.2.11</logback_version>
 
