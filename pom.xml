@@ -21,7 +21,7 @@
         <kotlin-maven-plugin.languageVersion>1.8</kotlin-maven-plugin.languageVersion>
         <kotlinx-coroutines-debug.version>1.6.4</kotlinx-coroutines-debug.version>
         <kotlin-maven-symbol-processing.version>1.4</kotlin-maven-symbol-processing.version>
-        <ktor.version>2.2.3</ktor.version>
+        <ktor.version>2.2.4</ktor.version>
         <kotlin.code.style>official</kotlin.code.style>
 
         <jackson.version>1.9.13</jackson.version>
