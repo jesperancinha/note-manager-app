@@ -27,7 +27,7 @@
         <jackson.version>1.9.13</jackson.version>
         <arrow.version>1.1.5</arrow.version>
         <logback_version>1.4.5</logback_version>
-        <prometeus_version>1.10.4</prometeus_version>
+        <prometeus_version>1.10.5</prometeus_version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <exposed.version>0.41.1</exposed.version>
         <exec-maven-plugin.version>3.1.0</exec-maven-plugin.version>
