@@ -35,7 +35,7 @@
         <ktorm-core.version>3.5.0</ktorm-core.version>
         <logback_version>1.2.11</logback_version>
 
-        <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
+        <jacoco-maven-plugin.version>0.8.9</jacoco-maven-plugin.version>
         <omni-coveragereporter-maven-plugin.version>0.4.2</omni-coveragereporter-maven-plugin.version>
     </properties>
 
