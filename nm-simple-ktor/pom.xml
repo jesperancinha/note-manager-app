@@ -13,7 +13,7 @@
     <properties>
 <!--        <kotlin.compiler.incremental>true</kotlin.compiler.incremental>-->
         <main.class>io.ktor.server.netty.EngineMain</main.class>
-        <kotlinx-serialization-json.version>1.5.0</kotlinx-serialization-json.version>
+        <kotlinx-serialization-json.version>1.5.1</kotlinx-serialization-json.version>
     </properties>
     <repositories>
     </repositories>
