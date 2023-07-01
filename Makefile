@@ -16,8 +16,7 @@ upgrade:
 		cd $$CURRENT; \
 	done
 coverage:
-	mvn clean install jacoco:prepare-agent package jacoco:report
-	mvn omni-coveragereporter:report
+	./gradlew clean build test jacocoTestReport -i
 docker-stop-all:
 	docker ps -a --format '{{.ID}}' | xargs -I {}  docker stop {}
 	docker network prune
