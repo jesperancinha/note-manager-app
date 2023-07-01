@@ -11,7 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <java.version>18</java.version>
+        <java.version>19</java.version>
         <maven.compiler.plugin.target>${java.version}</maven.compiler.plugin.target>
         <maven.compiler.plugin.source>${java.version}</maven.compiler.plugin.source>
         <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
