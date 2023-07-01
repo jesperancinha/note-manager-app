@@ -1,0 +1,1 @@
+rootProject.name = "org.jesperancinha.nm-simple-ktor"

@@ -33,6 +33,8 @@ dependencies {
     implementation("io.ktor:ktor-server-content-negotiation-jvm:$ktor_version")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-websockets-jvm:$ktor_version")
+    implementation("io.ktor:ktor-server-html-builder-jvm:$ktor_version")
+    implementation("io.ktor:ktor-server-resources-jvm:$ktor_version")
     implementation("io.micrometer:micrometer-registry-prometheus:1.11.1")
     implementation("io.arrow-kt:arrow-core-jvm:1.1.5")
     implementation("io.arrow-kt:suspendapp-jvm:0.4.0")
@@ -45,6 +47,7 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug:$kotlinx_version")
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 kotlin {
