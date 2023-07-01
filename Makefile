@@ -16,6 +16,7 @@ upgrade:
 		cd $$CURRENT; \
 	done
 coverage:
+	gradle wrapper
 	./gradlew clean build test jacocoTestReport -i
 docker-stop-all:
 	docker ps -a --format '{{.ID}}' | xargs -I {}  docker stop {}
