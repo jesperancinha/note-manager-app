@@ -1,9 +1,9 @@
 SHELL := /bin/bash
-GITHUB_RUN_ID ?=123
+GRADLE_VERSION ?= 8.2
 
-b: build
-build:
-	mvn clean install
+b: buildw
+buildw:
+	gradle build -x test
 coverage:
 	mvn clean install jacoco:prepare-agent package jacoco:report
 	mvn omni-coveragereporter:report

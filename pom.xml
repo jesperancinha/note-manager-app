@@ -43,7 +43,7 @@
 
     <modules>
         <module>nm-simple-ktor</module>
-        <module>note-manager-app</module>
+        <module>note-manager-app-old</module>
     </modules>
 
     <dependencyManagement>
