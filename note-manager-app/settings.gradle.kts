@@ -1,0 +1,1 @@
+rootProject.name = "org.jesperancinha.note-manager-app"
