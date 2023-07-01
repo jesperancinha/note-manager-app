@@ -7,6 +7,7 @@ b: buildw
 buildw:
 	gradle build -x test
 upgrade:
+	gradle wrapper --gradle-version $(GRADLE_VERSION)
 	@for location in $(MODULE_LOCATIONS); do \
   		export CURRENT=$(shell pwd); \
   		echo "Upgrading $$location..."; \
