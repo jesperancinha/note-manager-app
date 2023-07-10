@@ -37,7 +37,7 @@ dependencies {
     implementation("io.ktor:ktor-server-websockets-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-html-builder-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-resources-jvm:$ktor_version")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.11.1")
+    implementation("io.micrometer:micrometer-registry-prometheus:1.11.2")
     implementation("io.arrow-kt:arrow-core-jvm:1.1.5")
     implementation("io.arrow-kt:suspendapp-jvm:0.4.0")
     implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.1.5")
