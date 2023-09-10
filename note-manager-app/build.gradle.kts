@@ -37,7 +37,7 @@ dependencies {
     implementation("io.micrometer:micrometer-registry-prometheus:1.11.3")
     implementation("io.arrow-kt:arrow-core-jvm:1.2.1")
     implementation("io.arrow-kt:suspendapp-jvm:0.4.0")
-    implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.2.0")
+    implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.2.1")
     implementation("org.ktorm:ktorm-core:3.6.0")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("org.jetbrains.exposed:exposed-core:0.43.0")
