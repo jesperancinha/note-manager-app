@@ -45,7 +45,7 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("org.jetbrains.exposed:exposed-core:0.46.0")
     implementation("org.jetbrains.exposed:exposed-dao:0.46.0")
-    implementation("org.jetbrains.exposed:exposed-jdbc:0.45.0")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.46.0")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug:$kotlinx_version")
