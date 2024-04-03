@@ -38,7 +38,7 @@ dependencies {
     implementation("io.ktor:ktor-server-html-builder-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-resources-jvm:$ktor_version")
     implementation("io.micrometer:micrometer-registry-prometheus:1.12.4")
-    implementation("io.arrow-kt:arrow-core-jvm:1.2.3")
+    implementation("io.arrow-kt:arrow-core-jvm:1.2.4")
     implementation("io.arrow-kt:suspendapp-jvm:0.4.0")
     implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.2.4")
     implementation("org.ktorm:ktorm-core:3.6.0")
