@@ -43,7 +43,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.2.4")
     implementation("org.ktorm:ktorm-core:3.6.0")
     implementation("ch.qos.logback:logback-classic:$logback_version")
-    implementation("org.jetbrains.exposed:exposed-core:0.49.0")
+    implementation("org.jetbrains.exposed:exposed-core:0.50.0")
     implementation("org.jetbrains.exposed:exposed-dao:0.50.0")
     implementation("org.jetbrains.exposed:exposed-jdbc:0.49.0")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
