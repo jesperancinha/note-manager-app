@@ -41,7 +41,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-core-jvm:1.2.4")
     implementation("io.arrow-kt:suspendapp-jvm:0.4.0")
     implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.2.4")
-    implementation("org.ktorm:ktorm-core:3.6.0")
+    implementation("org.ktorm:ktorm-core:4.0.0")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("org.jetbrains.exposed:exposed-core:0.50.1")
     implementation("org.jetbrains.exposed:exposed-dao:0.50.1")
