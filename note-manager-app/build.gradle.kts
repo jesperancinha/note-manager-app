@@ -1,7 +1,3 @@
-val kotlin_version: String by project
-val kotlinx_version: String by project
-val logback_version: String by project
-
 plugins {
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.ktor)
