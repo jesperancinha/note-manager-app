@@ -6,6 +6,6 @@ buildscript {
 }
 
 plugins {
-    id("jacoco")
-    id( "org.jesperancinha.plugins.omni") version "0.3.0"
+    jacoco
+    alias(libs.plugins.jesperancinha.omni)
 }
