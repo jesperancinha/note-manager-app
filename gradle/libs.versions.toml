@@ -14,7 +14,7 @@ ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", versi
 ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "2.3.2" }
 ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "2.3.2" }
 ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "2.3.2" }
-ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "2.3.2" }
+ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "2.3.11" }
 ktor-server-metrics-jvm = { group = "io.ktor", name = "ktor-server-metrics-jvm", version = "2.3.2" }
 ktor-server-metrics-micrometer-jvm = { group = "io.ktor", name = "ktor-server-metrics-micrometer-jvm", version = "2.3.2" }
 ktor-server-websockets-jvm = { group = "io.ktor", name = "ktor-server-websockets-jvm", version = "2.3.2" }
