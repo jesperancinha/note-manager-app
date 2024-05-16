@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-GRADLE_VERSION ?= 8.2
+GRADLE_VERSION ?= 8.7
 MODULE_LOCATIONS := nm-simple-ktor \
 					note-manager-app
 
@@ -8,13 +8,6 @@ buildw:
 	gradle build -x test
 upgrade:
 	gradle wrapper --gradle-version $(GRADLE_VERSION)
-	@for location in $(MODULE_LOCATIONS); do \
-  		export CURRENT=$(shell pwd); \
-  		echo "Upgrading $$location..."; \
-		cd $$location; \
-		gradle wrapper --gradle-version $(GRADLE_VERSION); \
-		cd $$CURRENT; \
-	done
 coverage:
 	gradle wrapper
 	./gradlew clean build test jacocoTestReport -i
