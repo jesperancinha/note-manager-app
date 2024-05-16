@@ -1,12 +1,11 @@
-val ktor_version: String by project
 val kotlin_version: String by project
 val kotlinx_version: String by project
 val logback_version: String by project
 
 plugins {
-    kotlin("jvm") version "1.9.24"
-    id("io.ktor.plugin") version "2.3.11"
-    id("jacoco")
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.ktor)
+    jacoco
 }
 
 group = "org.jesperancinha"
@@ -23,29 +22,29 @@ repositories {
 }
 
 dependencies {
-    implementation("io.ktor:ktor-server-core-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-netty-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-auth-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-auth-jwt-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-partial-content-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-metrics-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-metrics-micrometer-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-websockets-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-content-negotiation-jvm:$ktor_version")
-    implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktor_version")
-    implementation("io.ktor:ktor-server-websockets-jvm:$ktor_version")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.12.5")
-    implementation("io.arrow-kt:arrow-core-jvm:1.2.4")
-    implementation("io.arrow-kt:suspendapp-jvm:0.4.0")
-    implementation("io.arrow-kt:arrow-fx-coroutines-jvm:1.2.4")
-    implementation("org.ktorm:ktorm-core:4.0.0")
-    implementation("ch.qos.logback:logback-classic:$logback_version")
-    implementation("org.jetbrains.exposed:exposed-core:0.50.1")
-    implementation("org.jetbrains.exposed:exposed-dao:0.50.1")
-    implementation("org.jetbrains.exposed:exposed-jdbc:0.50.1")
-    testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug:$kotlinx_version")
+    api(libs.ktor.server.core.jvm)
+    api(libs.ktor.server.netty.jvm)
+    api(libs.ktor.server.auth.jvm)
+    api(libs.ktor.server.auth.jwt.jvm)
+    api(libs.ktor.server.partial.content.jvm)
+    api(libs.ktor.server.metrics.jvm)
+    api(libs.ktor.server.metrics.micrometer.jvm)
+    api(libs.ktor.server.websockets.jvm)
+    api(libs.ktor.server.content.negotiation.jvm)
+    api(libs.ktor.serialization.kotlinx.json.jvm)
+    api(libs.ktor.server.websockets.jvm)
+    api(libs.micrometer.registry.prometheus)
+    api(libs.arrow.core.jvm)
+    api(libs.suspendapp.jvm)
+    api(libs.arrow.fx.coroutines.jvm)
+    api(libs.ktorm.core)
+    api(libs.logback.classic)
+    api(libs.exposed.core)
+    api(libs.exposed.dao)
+    api(libs.exposed.jdbc)
+    testImplementation(libs.ktor.server.tests.jvm)
+    testImplementation(libs.kotlin.test.junit)
+    testImplementation(libs.kotlinx.coroutines.debug)
 }
 
 kotlin {
