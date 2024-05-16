@@ -33,6 +33,9 @@ application with support for high capacity and high availability.
 This investigation will use [Chapter III - Hong Kong Enterprise Surprise](./docs/good.story) of my novel, to see
 examples of how this all pans out.
 
+### Stable releases
+
+- [1.0.0](https://github.com/jesperancinha/note-manager-app/tree/1.0.0) - [f653fa0ac6cc763ad65548fc5854fb603aaf9f51](https://github.com/jesperancinha/note-manager-app/tree/f653fa0ac6cc763ad65548fc5854fb603aaf9f51) - TOML migration
 ## References
 
 #### Videos
