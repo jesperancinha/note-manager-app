@@ -13,7 +13,7 @@ exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version
 ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version = "2.3.11" }
 ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "2.3.11" }
 ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "2.3.11" }
-ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "2.3.11" }
+ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "2.3.12" }
 ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "2.3.11" }
 ktor-server-metrics-jvm = { group = "io.ktor", name = "ktor-server-metrics-jvm", version = "2.3.11" }
 ktor-server-metrics-micrometer-jvm = { group = "io.ktor", name = "ktor-server-metrics-micrometer-jvm", version = "2.3.11" }
