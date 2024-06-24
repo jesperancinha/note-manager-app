@@ -4,3 +4,18 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    groups:
+      kotlin:
+        patterns:
+          - "org.jetbrains.kotlin.*"
+          - "com.google.devtools.ksp"
+          - "kotlin*"
+          - "*kotlin*"
+      spring:
+        patterns:
+          - "*spring*"
+      ktor:
+        patterns:
+          - "*ktor*"
+          - "ktor*"
+
