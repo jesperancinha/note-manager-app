@@ -18,4 +18,7 @@ updates:
         patterns:
           - "*ktor*"
           - "ktor*"
-
+      exposed:
+        patterns:
+          - "*exposed*"
+          - "exposed*"
