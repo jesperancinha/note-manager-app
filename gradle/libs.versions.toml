@@ -1,12 +1,12 @@
 [plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.20" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
 jesperancinha-omni = { id = "org.jesperancinha.plugins.omni", version = "0.3.1" }
 ktor = { id = "io.ktor.plugin", version = "3.0.0" }
-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.20" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.21" }
 
 [libraries]
-junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.11.2" }
-junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version = "5.11.2" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.11.3" }
+junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version = "5.11.3" }
 exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version = "0.55.0" }
 exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version = "0.55.0" }
 exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version = "0.55.0" }
@@ -22,12 +22,12 @@ ktor-server-content-negotiation-jvm = { group = "io.ktor", name = "ktor-server-c
 ktor-server-html-builder-jvm = { group = "io.ktor", name = "ktor-server-html-builder-jvm", version = "3.0.0" }
 ktor-server-resources-jvm = { group = "io.ktor", name = "ktor-server-resources-jvm", version = "3.0.0" }
 ktor-serialization-kotlinx-json-jvm = { group = "io.ktor", name = "ktor-serialization-kotlinx-json-jvm", version = "3.0.0" }
-micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version = "1.13.5" }
+micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version = "1.13.6" }
 arrow-core-jvm = { group = "io.arrow-kt", name = "arrow-core-jvm", version = "1.2.4" }
 suspendapp-jvm = { group = "io.arrow-kt", name = "suspendapp-jvm", version = "0.4.0" }
 arrow-fx-coroutines-jvm = { group = "io.arrow-kt", name = "arrow-fx-coroutines-jvm", version = "1.2.4" }
 ktorm-core = { group = "org.ktorm", name = "ktorm-core", version = "4.1.1" }
 ktor-server-tests-jvm = { group = "io.ktor", name = "ktor-server-tests-jvm", version = "2.3.12" }
-logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.9" }
-kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.0.20" }
+logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.11" }
+kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.0.21" }
 kotlinx-coroutines-debug = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-debug", version = "1.9.0" }
