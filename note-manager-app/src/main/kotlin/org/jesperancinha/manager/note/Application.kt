@@ -3,7 +3,6 @@ package org.jesperancinha.manager.note
 import arrow.continuations.SuspendApp
 import arrow.fx.coroutines.Resource
 import arrow.fx.coroutines.continuations.resource
-import io.ktor.client.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -19,27 +18,27 @@ fun main() = SuspendApp {
     val hostConfig = HostConfiguration()
     resource {
         val dependencies = dependencies().bind()
-        val engine = server(Netty, host = hostConfig.host, port = hostConfig.port).bind()
+        val engine = server(host = hostConfig.host, port = hostConfig.port).bind()
         engine.application.app(dependencies)
     }.use { awaitCancellation() }
 }
 
-fun <Engine : ApplicationEngine, Configuration : ApplicationEngine.Configuration> server(
-    factory: ApplicationEngineFactory<Engine, Configuration>,
+fun server(
     port: Int = 8080,
     host: String = "0.0.0.0",
-    configure: Configuration.() -> Unit = {},
-    gracePeriodMillis: Duration = 1.seconds,
-    timeoutMillis: Duration = 5.seconds,
-): Resource<ApplicationEngine> =
-    Resource({
-        embeddedServer(factory, host = host, port = port, configure = configure) {
-        }.apply { start() }
-    }, { engine, _ ->
-        engine.environment.log.info("Shutting down Ktor server...")
-        engine.stop(gracePeriodMillis.inWholeMilliseconds, timeoutMillis.inWholeMilliseconds)
-        engine.environment.log.info("Ktor server shutdown!")
-    })
+    configure: Application.() -> Unit = {},
+    gracePeriod: Duration = 1.seconds,
+    timeout: Duration = 5.seconds,
+): Resource<EmbeddedServer<NettyApplicationEngine, NettyApplicationEngine.Configuration>> = Resource(
+    {
+        embeddedServer(Netty, port = port, host = host, module = configure).apply { start(wait = false) }
+    },
+    { server, _ ->
+        server.engine.environment.log.info("Shutting down Ktor server...")
+        server.stop(gracePeriod.inWholeMilliseconds, timeout.inWholeMilliseconds)
+        server.engine.environment.log.info("Ktor server shutdown!")
+    }
+)
 
 data class Dependencies(
     val storyService: StoryDao?,
@@ -54,6 +53,7 @@ fun dependencies(): Resource<Dependencies> = resource {
 fun Application.module() {
     configureRouting()
 }
+
 fun Application.app(module: Dependencies) {
 //    configureSecurity()
     configureHTTP()

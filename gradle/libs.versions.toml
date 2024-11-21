@@ -1,7 +1,7 @@
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
 jesperancinha-omni = { id = "org.jesperancinha.plugins.omni", version = "0.3.1" }
-ktor = { id = "io.ktor.plugin", version = "2.3.12" }
+ktor = { id = "io.ktor.plugin", version = "3.0.1" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.21" }
 
 [libraries]
@@ -10,24 +10,24 @@ junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engi
 exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version = "0.56.0" }
 exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version = "0.56.0" }
 exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version = "0.56.0" }
-ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version = "2.3.12" }
-ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "2.3.12" }
-ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "2.3.12" }
-ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "2.3.12" }
-ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "2.3.12" }
-ktor-server-metrics-jvm = { group = "io.ktor", name = "ktor-server-metrics-jvm", version = "2.3.12" }
-ktor-server-metrics-micrometer-jvm = { group = "io.ktor", name = "ktor-server-metrics-micrometer-jvm", version = "2.3.12" }
-ktor-server-websockets-jvm = { group = "io.ktor", name = "ktor-server-websockets-jvm", version = "2.3.12" }
-ktor-server-content-negotiation-jvm = { group = "io.ktor", name = "ktor-server-content-negotiation-jvm", version = "2.3.12" }
-ktor-server-html-builder-jvm = { group = "io.ktor", name = "ktor-server-html-builder-jvm", version = "2.3.12" }
-ktor-server-resources-jvm = { group = "io.ktor", name = "ktor-server-resources-jvm", version = "2.3.12" }
-ktor-serialization-kotlinx-json-jvm = { group = "io.ktor", name = "ktor-serialization-kotlinx-json-jvm", version = "3.0.0" }
-micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version = "1.13.6" }
+ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version = "3.0.1" }
+ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "3.0.1" }
+ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "3.0.1" }
+ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "3.0.1" }
+ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "3.0.1" }
+ktor-server-metrics-jvm = { group = "io.ktor", name = "ktor-server-metrics-jvm", version = "3.0.1" }
+ktor-server-metrics-micrometer-jvm = { group = "io.ktor", name = "ktor-server-metrics-micrometer-jvm", version = "3.0.1" }
+ktor-server-websockets-jvm = { group = "io.ktor", name = "ktor-server-websockets-jvm", version = "3.0.1" }
+ktor-server-content-negotiation-jvm = { group = "io.ktor", name = "ktor-server-content-negotiation-jvm", version = "3.0.1" }
+ktor-server-html-builder-jvm = { group = "io.ktor", name = "ktor-server-html-builder-jvm", version = "3.0.1" }
+ktor-server-resources-jvm = { group = "io.ktor", name = "ktor-server-resources-jvm", version = "3.0.1" }
+ktor-serialization-kotlinx-json-jvm = { group = "io.ktor", name = "ktor-serialization-kotlinx-json-jvm", version = "3.0.1" }
+micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version = "1.14.1" }
 arrow-core-jvm = { group = "io.arrow-kt", name = "arrow-core-jvm", version = "1.2.4" }
 suspendapp-jvm = { group = "io.arrow-kt", name = "suspendapp-jvm", version = "0.4.0" }
 arrow-fx-coroutines-jvm = { group = "io.arrow-kt", name = "arrow-fx-coroutines-jvm", version = "1.2.4" }
 ktorm-core = { group = "org.ktorm", name = "ktorm-core", version = "4.1.1" }
-ktor-server-tests-jvm = { group = "io.ktor", name = "ktor-server-tests-jvm", version = "2.3.12" }
+ktor-server-tests-jvm = { group = "io.ktor", name = "ktor-server-tests-jvm", version = "2.3.13" }
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.12" }
 kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.0.21" }
 kotlinx-coroutines-debug = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-debug", version = "1.9.0" }
