@@ -2,7 +2,7 @@ package org.jesperancinha.manager.note
 
 import arrow.continuations.SuspendApp
 import arrow.fx.coroutines.Resource
-import arrow.fx.coroutines.continuations.resource
+import arrow.fx.coroutines.resource
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -20,7 +20,7 @@ fun main() = SuspendApp {
         val dependencies = dependencies().bind()
         val engine = server(host = hostConfig.host, port = hostConfig.port).bind()
         engine.application.app(dependencies)
-    }.use { awaitCancellation() }
+    }.run { awaitCancellation() }
 }
 
 fun server(
@@ -29,7 +29,7 @@ fun server(
     configure: Application.() -> Unit = {},
     gracePeriod: Duration = 1.seconds,
     timeout: Duration = 5.seconds,
-): Resource<EmbeddedServer<NettyApplicationEngine, NettyApplicationEngine.Configuration>> = Resource(
+): Resource<EmbeddedServer<NettyApplicationEngine, NettyApplicationEngine.Configuration>> = resource(
     {
         embeddedServer(Netty, port = port, host = host, module = configure).apply { start(wait = false) }
     },
