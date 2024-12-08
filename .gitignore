@@ -24,3 +24,4 @@ note-manager-web/src/main/webapp/resources/js/addnote.min.js
 .gradle
 gradle/wrapper/gradle-wrapper.jar
 .kotlin
+problems-report.html
