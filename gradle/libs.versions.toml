@@ -1,7 +1,7 @@
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.1.0" }
 jesperancinha-omni = { id = "org.jesperancinha.plugins.omni", version = "0.3.1" }
-ktor = { id = "io.ktor.plugin", version = "3.0.2" }
+ktor = { id = "io.ktor.plugin", version = "3.0.3" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.1.0" }
 
 [libraries]
@@ -10,17 +10,17 @@ junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engi
 exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version = "0.57.0" }
 exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version = "0.57.0" }
 exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version = "0.57.0" }
-ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version = "3.0.2" }
-ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "3.0.2" }
-ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "3.0.2" }
-ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "3.0.2" }
-ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "3.0.2" }
-ktor-server-metrics-jvm = { group = "io.ktor", name = "ktor-server-metrics-jvm", version = "3.0.2" }
-ktor-server-metrics-micrometer-jvm = { group = "io.ktor", name = "ktor-server-metrics-micrometer-jvm", version = "3.0.2" }
-ktor-server-websockets-jvm = { group = "io.ktor", name = "ktor-server-websockets-jvm", version = "3.0.2" }
-ktor-server-content-negotiation-jvm = { group = "io.ktor", name = "ktor-server-content-negotiation-jvm", version = "3.0.2" }
-ktor-server-html-builder-jvm = { group = "io.ktor", name = "ktor-server-html-builder-jvm", version = "3.0.2" }
-ktor-server-resources-jvm = { group = "io.ktor", name = "ktor-server-resources-jvm", version = "3.0.2" }
+ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version = "3.0.3" }
+ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "3.0.3" }
+ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "3.0.3" }
+ktor-server-auth-jwt-jvm = { group = "io.ktor", name = "ktor-server-auth-jwt-jvm", version = "3.0.3" }
+ktor-server-partial-content-jvm = { group = "io.ktor", name = "ktor-server-partial-content-jvm", version = "3.0.3" }
+ktor-server-metrics-jvm = { group = "io.ktor", name = "ktor-server-metrics-jvm", version = "3.0.3" }
+ktor-server-metrics-micrometer-jvm = { group = "io.ktor", name = "ktor-server-metrics-micrometer-jvm", version = "3.0.3" }
+ktor-server-websockets-jvm = { group = "io.ktor", name = "ktor-server-websockets-jvm", version = "3.0.3" }
+ktor-server-content-negotiation-jvm = { group = "io.ktor", name = "ktor-server-content-negotiation-jvm", version = "3.0.3" }
+ktor-server-html-builder-jvm = { group = "io.ktor", name = "ktor-server-html-builder-jvm", version = "3.0.3" }
+ktor-server-resources-jvm = { group = "io.ktor", name = "ktor-server-resources-jvm", version = "3.0.3" }
 ktor-serialization-kotlinx-json-jvm = { group = "io.ktor", name = "ktor-serialization-kotlinx-json-jvm", version = "3.0.3" }
 micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version = "1.14.2" }
 arrow-core-jvm = { group = "io.arrow-kt", name = "arrow-core-jvm", version = "2.0.0" }
