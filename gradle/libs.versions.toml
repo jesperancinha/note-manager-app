@@ -7,9 +7,9 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 [libraries]
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.11.4" }
 junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version = "5.11.4" }
-exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version = "0.57.0" }
-exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version = "0.57.0" }
-exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version = "0.57.0" }
+exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version = "0.58.0" }
+exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version = "0.58.0" }
+exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version = "0.58.0" }
 ktor-server-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version = "3.0.3" }
 ktor-server-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version = "3.0.3" }
 ktor-server-auth-jvm = { group = "io.ktor", name = "ktor-server-auth-jvm", version = "3.0.3" }
