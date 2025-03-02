@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-GRADLE_VERSION ?= 8.12.1
+GRADLE_VERSION ?= 8.13
 MODULE_LOCATIONS := nm-simple-ktor \
 					note-manager-app
 
