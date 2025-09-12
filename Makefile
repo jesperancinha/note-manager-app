@@ -1,7 +1,5 @@
 SHELL := /bin/bash
 GRADLE_VERSION ?= 9.0.0
-MODULE_LOCATIONS := nm-simple-ktor \
-					note-manager-app
 
 b: buildw
 buildw:
