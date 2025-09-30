@@ -15,6 +15,6 @@ arrow-core-jvm = { group = "io.arrow-kt", name = "arrow-core-jvm", version = "2.
 suspendapp-jvm = { group = "io.arrow-kt", name = "suspendapp-jvm", version = "2.1.2" }
 arrow-fx-coroutines-jvm = { group = "io.arrow-kt", name = "arrow-fx-coroutines-jvm", version = "2.1.2" }
 ktorm-core = { group = "org.ktorm", name = "ktorm-core", version = "4.1.1" }
-logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.18" }
+logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.19" }
 kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.2.20" }
 kotlinx-coroutines-debug = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-debug", version = "1.10.2" }
