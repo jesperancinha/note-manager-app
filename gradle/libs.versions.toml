@@ -1,8 +1,8 @@
 [plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.2.21" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.3.0" }
 jesperancinha-omni = { id = "org.jesperancinha.plugins.omni", version = "0.4.5" }
 ktor = { id = "io.ktor.plugin", version = "3.3.3" }
-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.2.21" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.3.0" }
 
 [libraries]
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "6.0.1" }
@@ -16,5 +16,5 @@ suspendapp-jvm = { group = "io.arrow-kt", name = "suspendapp-jvm", version = "2.
 arrow-fx-coroutines-jvm = { group = "io.arrow-kt", name = "arrow-fx-coroutines-jvm", version = "2.2.0" }
 ktorm-core = { group = "org.ktorm", name = "ktorm-core", version = "4.1.1" }
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.22" }
-kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.2.21" }
+kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.3.0" }
 kotlinx-coroutines-debug = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-debug", version = "1.10.2" }
