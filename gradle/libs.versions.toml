@@ -11,9 +11,9 @@ exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version
 exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version = "0.61.0" }
 exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version = "0.61.0" }
 micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version = "1.16.1" }
-arrow-core-jvm = { group = "io.arrow-kt", name = "arrow-core-jvm", version = "2.2.0" }
-suspendapp-jvm = { group = "io.arrow-kt", name = "suspendapp-jvm", version = "2.2.0" }
-arrow-fx-coroutines-jvm = { group = "io.arrow-kt", name = "arrow-fx-coroutines-jvm", version = "2.2.0" }
+arrow-core-jvm = { group = "io.arrow-kt", name = "arrow-core-jvm", version = "2.2.1.1" }
+suspendapp-jvm = { group = "io.arrow-kt", name = "suspendapp-jvm", version = "2.2.1.1" }
+arrow-fx-coroutines-jvm = { group = "io.arrow-kt", name = "arrow-fx-coroutines-jvm", version = "2.2.1.1" }
 ktorm-core = { group = "org.ktorm", name = "ktorm-core", version = "4.1.1" }
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.5.22" }
 kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version = "2.3.0" }
