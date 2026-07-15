@@ -36,6 +36,22 @@ examples of how this all pans out.
 ### Stable releases
 
 -   [1.0.0](https://github.com/jesperancinha/note-manager-app/tree/1.0.0) - [f653fa0ac6cc763ad65548fc5854fb603aaf9f51](https://github.com/jesperancinha/note-manager-app/tree/f653fa0ac6cc763ad65548fc5854fb603aaf9f51) - TOML migration
+
+
+---
+
+## Claude
+
+Prompt claude with the following:
+
+### Run all skills
+```text
+please run skills angular, annotations, docker, java, jee, jvm, kotlin, ktor, parallel, readme, spring, spring-test on this project
+```
+
+---
+
+
 ## References
 
 #### Videos

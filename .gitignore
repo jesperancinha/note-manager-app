@@ -25,3 +25,6 @@ note-manager-web/src/main/webapp/resources/js/addnote.min.js
 gradle/wrapper/gradle-wrapper.jar
 .kotlin
 problems-report.html
+
+# Generated code
+dependabot.yml.bak
