@@ -42,7 +42,7 @@ dependencies {
     api(libs.exposed.core)
     api(libs.exposed.dao)
     api(libs.exposed.jdbc)
-    testImplementation("io.ktor:ktor-server-tests-jvm")
+    testImplementation("io.ktor:ktor-server-test-host-jvm")
     testImplementation(libs.kotlin.test.junit)
     testImplementation(libs.kotlinx.coroutines.debug)
 }
